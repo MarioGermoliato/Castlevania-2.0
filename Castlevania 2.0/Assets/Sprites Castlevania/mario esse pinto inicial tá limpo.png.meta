@@ -1,0 +1,1687 @@
+fileFormatVersion: 2
+guid: a99c9ad5127c67d42a15d11a1e81bdb8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3859168164421239056
+    second: "mario esse pinto inicial t\xE1 limpo_0"
+  - first:
+      213: 2122508630618474093
+    second: "mario esse pinto inicial t\xE1 limpo_1"
+  - first:
+      213: 8941930127468023617
+    second: "mario esse pinto inicial t\xE1 limpo_2"
+  - first:
+      213: 6624899854265813853
+    second: "mario esse pinto inicial t\xE1 limpo_3"
+  - first:
+      213: 2870456263332652792
+    second: "mario esse pinto inicial t\xE1 limpo_4"
+  - first:
+      213: -4748398902852003578
+    second: "mario esse pinto inicial t\xE1 limpo_5"
+  - first:
+      213: -5071823073272176136
+    second: "mario esse pinto inicial t\xE1 limpo_6"
+  - first:
+      213: 5763627852919157852
+    second: "mario esse pinto inicial t\xE1 limpo_7"
+  - first:
+      213: -8879848753825045592
+    second: "mario esse pinto inicial t\xE1 limpo_8"
+  - first:
+      213: -5588073387772924561
+    second: "mario esse pinto inicial t\xE1 limpo_9"
+  - first:
+      213: 2820897430285896895
+    second: "mario esse pinto inicial t\xE1 limpo_10"
+  - first:
+      213: 6217102569522240904
+    second: "mario esse pinto inicial t\xE1 limpo_11"
+  - first:
+      213: 4012785851908289811
+    second: "mario esse pinto inicial t\xE1 limpo_12"
+  - first:
+      213: 2919434335128354770
+    second: "mario esse pinto inicial t\xE1 limpo_13"
+  - first:
+      213: 1857060126655109131
+    second: "mario esse pinto inicial t\xE1 limpo_14"
+  - first:
+      213: 1609480113425691999
+    second: "mario esse pinto inicial t\xE1 limpo_15"
+  - first:
+      213: -8533931736153240595
+    second: "mario esse pinto inicial t\xE1 limpo_16"
+  - first:
+      213: -3466532561734103835
+    second: "mario esse pinto inicial t\xE1 limpo_17"
+  - first:
+      213: -7897593703062091342
+    second: "mario esse pinto inicial t\xE1 limpo_18"
+  - first:
+      213: -5691931056653613682
+    second: "mario esse pinto inicial t\xE1 limpo_19"
+  - first:
+      213: -4215368283319064955
+    second: "mario esse pinto inicial t\xE1 limpo_20"
+  - first:
+      213: -8830587695112690716
+    second: "mario esse pinto inicial t\xE1 limpo_21"
+  - first:
+      213: -1791688645869980502
+    second: "mario esse pinto inicial t\xE1 limpo_22"
+  - first:
+      213: 2924180814827999087
+    second: "mario esse pinto inicial t\xE1 limpo_23"
+  - first:
+      213: -4800066084047306639
+    second: "mario esse pinto inicial t\xE1 limpo_24"
+  - first:
+      213: 7716404081992529733
+    second: "mario esse pinto inicial t\xE1 limpo_25"
+  - first:
+      213: -1065729542811802000
+    second: "mario esse pinto inicial t\xE1 limpo_26"
+  - first:
+      213: 3181147396676755342
+    second: "mario esse pinto inicial t\xE1 limpo_27"
+  - first:
+      213: 4392686654898865161
+    second: "mario esse pinto inicial t\xE1 limpo_28"
+  - first:
+      213: -7282915768748910893
+    second: "mario esse pinto inicial t\xE1 limpo_29"
+  - first:
+      213: 3802177375916365039
+    second: "mario esse pinto inicial t\xE1 limpo_30"
+  - first:
+      213: 337241236696591941
+    second: "mario esse pinto inicial t\xE1 limpo_31"
+  - first:
+      213: -3917295309774570417
+    second: "mario esse pinto inicial t\xE1 limpo_32"
+  - first:
+      213: -2933437368191054673
+    second: "mario esse pinto inicial t\xE1 limpo_33"
+  - first:
+      213: 8014558417395225781
+    second: "mario esse pinto inicial t\xE1 limpo_34"
+  - first:
+      213: 6242963290532769518
+    second: "mario esse pinto inicial t\xE1 limpo_35"
+  - first:
+      213: -9192930187611909162
+    second: "mario esse pinto inicial t\xE1 limpo_36"
+  - first:
+      213: -680374780986880247
+    second: "mario esse pinto inicial t\xE1 limpo_37"
+  - first:
+      213: 4360212445271499194
+    second: "mario esse pinto inicial t\xE1 limpo_38"
+  - first:
+      213: 6483031332630615196
+    second: "mario esse pinto inicial t\xE1 limpo_39"
+  - first:
+      213: -29200237083278140
+    second: "mario esse pinto inicial t\xE1 limpo_40"
+  - first:
+      213: -7135320361159094216
+    second: "mario esse pinto inicial t\xE1 limpo_41"
+  - first:
+      213: 888659197913800853
+    second: "mario esse pinto inicial t\xE1 limpo_42"
+  - first:
+      213: -7047812931423991603
+    second: "mario esse pinto inicial t\xE1 limpo_43"
+  - first:
+      213: -8194365001105575595
+    second: "mario esse pinto inicial t\xE1 limpo_44"
+  - first:
+      213: -2440757507535182894
+    second: "mario esse pinto inicial t\xE1 limpo_45"
+  - first:
+      213: -5179475234651792707
+    second: "mario esse pinto inicial t\xE1 limpo_46"
+  - first:
+      213: -7563989223153142523
+    second: "mario esse pinto inicial t\xE1 limpo_47"
+  - first:
+      213: 2181545483426886794
+    second: "mario esse pinto inicial t\xE1 limpo_48"
+  - first:
+      213: 5696625641190488283
+    second: "mario esse pinto inicial t\xE1 limpo_49"
+  - first:
+      213: -2188160373341574444
+    second: "mario esse pinto inicial t\xE1 limpo_50"
+  - first:
+      213: -2872239972891052369
+    second: "mario esse pinto inicial t\xE1 limpo_51"
+  - first:
+      213: 8356076871497810160
+    second: "mario esse pinto inicial t\xE1 limpo_52"
+  - first:
+      213: 86962042333921379
+    second: "mario esse pinto inicial t\xE1 limpo_53"
+  - first:
+      213: 2088021865333007716
+    second: "mario esse pinto inicial t\xE1 limpo_54"
+  - first:
+      213: 8788235662773418556
+    second: "mario esse pinto inicial t\xE1 limpo_55"
+  - first:
+      213: 2544151971522395374
+    second: "mario esse pinto inicial t\xE1 limpo_56"
+  - first:
+      213: -8030223911856558380
+    second: "mario esse pinto inicial t\xE1 limpo_57"
+  - first:
+      213: 771070469438552324
+    second: "mario esse pinto inicial t\xE1 limpo_58"
+  - first:
+      213: -502786958772621972
+    second: "mario esse pinto inicial t\xE1 limpo_59"
+  - first:
+      213: 5313152921560711066
+    second: "mario esse pinto inicial t\xE1 limpo_60"
+  - first:
+      213: 627698607592985021
+    second: "mario esse pinto inicial t\xE1 limpo_61"
+  - first:
+      213: 6882418971216057006
+    second: "mario esse pinto inicial t\xE1 limpo_62"
+  - first:
+      213: -2709010228905379415
+    second: "mario esse pinto inicial t\xE1 limpo_63"
+  - first:
+      213: -6795104147717830023
+    second: "mario esse pinto inicial t\xE1 limpo_64"
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_0"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 278
+        width: 256
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fefc2f400b717ac0800000000000000
+      internalID: -3859168164421239056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_1"
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 278
+        width: 256
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6607b0aa5aa47d10800000000000000
+      internalID: 2122508630618474093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_2"
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 397
+        width: 34
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f4816131e181c70800000000000000
+      internalID: 8941930127468023617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_3"
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 510
+        width: 112
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b0d06315f50fb50800000000000000
+      internalID: 6624899854265813853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_4"
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 501
+        width: 112
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6ec3f53c8e5d720800000000000000
+      internalID: 2870456263332652792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_5"
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 376
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609d6af1b5c4a1eb0800000000000000
+      internalID: -4748398902852003578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_6"
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 376
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f16bf959c34d99b0800000000000000
+      internalID: -5071823073272176136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_7"
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 376
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c543bc6cef48cff40800000000000000
+      internalID: 5763627852919157852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_8"
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 376
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a320191b9074c480800000000000000
+      internalID: -8879848753825045592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_9"
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 376
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d2bf65cdc2372b0800000000000000
+      internalID: -5588073387772924561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_10"
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 376
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcc0006447d52720800000000000000
+      internalID: 2820897430285896895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_11"
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 360
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d9a8ce8d5974650800000000000000
+      internalID: 6217102569522240904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_12"
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 360
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315f4beb87740b730800000000000000
+      internalID: 4012785851908289811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_13"
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 360
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df776a5f0ae38820800000000000000
+      internalID: 2919434335128354770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_14"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 266
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08d1d7985a95c910800000000000000
+      internalID: 1857060126655109131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_15"
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 266
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f553bc1c2a5065610800000000000000
+      internalID: 1609480113425691999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_16"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 266
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb4729fc42619980800000000000000
+      internalID: -8533931736153240595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_17"
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 266
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec8387600764efc0800000000000000
+      internalID: -3466532561734103835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_18"
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 266
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b94f9cce5c166290800000000000000
+      internalID: -7897593703062091342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_19"
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 266
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85c5227cd23201b0800000000000000
+      internalID: -5691931056653613682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_20"
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 266
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586a15b51e00085c0800000000000000
+      internalID: -4215368283319064955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_21"
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 266
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e36fda1743737580800000000000000
+      internalID: -8830587695112690716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_22"
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 266
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4b1da5ba4a227e0800000000000000
+      internalID: -1791688645869980502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_23"
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 266
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fc5d645f6c49820800000000000000
+      internalID: 2924180814827999087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_24"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 207
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170c5f1145db26db0800000000000000
+      internalID: -4800066084047306639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_25"
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 207
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547f98a11ac261b60800000000000000
+      internalID: 7716404081992529733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_26"
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 207
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076201690a4c531f0800000000000000
+      internalID: -1065729542811802000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_27"
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 207
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f931de3b4b52c20800000000000000
+      internalID: 3181147396676755342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_28"
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 207
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90488da3d35f5fc30800000000000000
+      internalID: 4392686654898865161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_29"
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 207
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d651a2e1b2edea90800000000000000
+      internalID: -7282915768748910893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_30"
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 207
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe49588bd2c04c430800000000000000
+      internalID: 3802177375916365039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_31"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 207
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ee9e43e1f1ea400800000000000000
+      internalID: 337241236696591941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_32"
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 207
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c3594aba8f2a9c0800000000000000
+      internalID: -3917295309774570417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_33"
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 207
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac8d1271465a47d0800000000000000
+      internalID: -2933437368191054673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_34"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 150
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4957cea6e693f60800000000000000
+      internalID: 8014558417395225781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_35"
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 150
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee620e390673a650800000000000000
+      internalID: 6242963290532769518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_36"
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 150
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d35d6a53b62c6080800000000000000
+      internalID: -9192930187611909162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_37"
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 150
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f8421ddb2de86f0800000000000000
+      internalID: -680374780986880247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_38"
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 150
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab125a91e16928c30800000000000000
+      internalID: 4360212445271499194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_39"
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 150
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94dc2106aa58f950800000000000000
+      internalID: 6483031332630615196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_40"
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 150
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c44b410a82489ff0800000000000000
+      internalID: -29200237083278140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_41"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 150
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8301082afef3afc90800000000000000
+      internalID: -7135320361159094216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_42"
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 150
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590290a05d6255c00800000000000000
+      internalID: 888659197913800853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_43"
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 150
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc88113da73213e90800000000000000
+      internalID: -7047812931423991603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_44"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 93
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55175357274c74e80800000000000000
+      internalID: -8194365001105575595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_45"
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 93
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d36f748affa02ed0800000000000000
+      internalID: -2440757507535182894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_46"
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 93
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba95a357bece18b0800000000000000
+      internalID: -5179475234651792707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_47"
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 93
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505f21590ef470790800000000000000
+      internalID: -7563989223153142523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_48"
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 93
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8474011f08664e10800000000000000
+      internalID: 2181545483426886794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_49"
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 93
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd87a81b6da7e0f40800000000000000
+      internalID: 5696625641190488283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_50"
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 93
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4daa36bdbb712a1e0800000000000000
+      internalID: -2188160373341574444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_51"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 93
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6b62266f0c328d0800000000000000
+      internalID: -2872239972891052369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_52"
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 93
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f00c7964afb6f370800000000000000
+      internalID: 8356076871497810160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_53"
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 93
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360814a4483f43100800000000000000
+      internalID: 86962042333921379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_54"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 36
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4652c6ed2d42afc10800000000000000
+      internalID: 2088021865333007716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_55"
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 36
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a7702f5c516f970800000000000000
+      internalID: 8788235662773418556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_56"
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 36
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eecb3351db4ae4320800000000000000
+      internalID: 2544151971522395374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_57"
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 36
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de21fae5e9ee8090800000000000000
+      internalID: -8030223911856558380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_58"
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 36
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409bda3b18463ba00800000000000000
+      internalID: 771070469438552324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_59"
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 36
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6da8a4ccedb509f0800000000000000
+      internalID: -502786958772621972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_60"
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 36
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f74fe8e6c1cb940800000000000000
+      internalID: 5313152921560711066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_61"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 36
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db15693de8806b800800000000000000
+      internalID: 627698607592985021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_62"
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 36
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea21eb6f693438f50800000000000000
+      internalID: 6882418971216057006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_63"
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 36
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9f13dbc89a76ad0800000000000000
+      internalID: -2709010228905379415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto inicial t\xE1 limpo_64"
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1
+        width: 224
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ace7797c0f2b1a0800000000000000
+      internalID: -6795104147717830023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

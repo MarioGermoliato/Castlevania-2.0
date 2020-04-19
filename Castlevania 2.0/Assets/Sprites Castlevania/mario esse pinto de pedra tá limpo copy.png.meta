@@ -1,0 +1,1519 @@
+fileFormatVersion: 2
+guid: 2a5a00f90e04ee740bafc2e8abeb2af1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6529366311632571750
+    second: "mario esse pinto de pedra t\xE1 limpo copy_0"
+  - first:
+      213: 4875613779740938336
+    second: "mario esse pinto de pedra t\xE1 limpo copy_1"
+  - first:
+      213: -3664906874762163527
+    second: "mario esse pinto de pedra t\xE1 limpo copy_2"
+  - first:
+      213: -8488349357262425020
+    second: "mario esse pinto de pedra t\xE1 limpo copy_3"
+  - first:
+      213: 6808872138673906312
+    second: "mario esse pinto de pedra t\xE1 limpo copy_4"
+  - first:
+      213: 3933772104750401013
+    second: "mario esse pinto de pedra t\xE1 limpo copy_5"
+  - first:
+      213: -2030538057261499666
+    second: "mario esse pinto de pedra t\xE1 limpo copy_6"
+  - first:
+      213: 7994501622280480853
+    second: "mario esse pinto de pedra t\xE1 limpo copy_7"
+  - first:
+      213: 2201924992708258785
+    second: "mario esse pinto de pedra t\xE1 limpo copy_8"
+  - first:
+      213: -291951882533910185
+    second: "mario esse pinto de pedra t\xE1 limpo copy_9"
+  - first:
+      213: -9043150206173193712
+    second: "mario esse pinto de pedra t\xE1 limpo copy_10"
+  - first:
+      213: -8422200525460975051
+    second: "mario esse pinto de pedra t\xE1 limpo copy_11"
+  - first:
+      213: -3309051089142565904
+    second: "mario esse pinto de pedra t\xE1 limpo copy_12"
+  - first:
+      213: -3105732189381921455
+    second: "mario esse pinto de pedra t\xE1 limpo copy_13"
+  - first:
+      213: 4238346647866224014
+    second: "mario esse pinto de pedra t\xE1 limpo copy_14"
+  - first:
+      213: 8758077425060670289
+    second: "mario esse pinto de pedra t\xE1 limpo copy_15"
+  - first:
+      213: 7557444236931372170
+    second: "mario esse pinto de pedra t\xE1 limpo copy_16"
+  - first:
+      213: -1689810273254513879
+    second: "mario esse pinto de pedra t\xE1 limpo copy_17"
+  - first:
+      213: -6411699601952352088
+    second: "mario esse pinto de pedra t\xE1 limpo copy_18"
+  - first:
+      213: -5328406123497826238
+    second: "mario esse pinto de pedra t\xE1 limpo copy_19"
+  - first:
+      213: 2362815417720530403
+    second: "mario esse pinto de pedra t\xE1 limpo copy_20"
+  - first:
+      213: -6360936726259068914
+    second: "mario esse pinto de pedra t\xE1 limpo copy_21"
+  - first:
+      213: 6100891044353285882
+    second: "mario esse pinto de pedra t\xE1 limpo copy_22"
+  - first:
+      213: 2036114093911672551
+    second: "mario esse pinto de pedra t\xE1 limpo copy_23"
+  - first:
+      213: 1562150319904796738
+    second: "mario esse pinto de pedra t\xE1 limpo copy_24"
+  - first:
+      213: -4640401868114868011
+    second: "mario esse pinto de pedra t\xE1 limpo copy_25"
+  - first:
+      213: -8635869405029080835
+    second: "mario esse pinto de pedra t\xE1 limpo copy_26"
+  - first:
+      213: -4722151112516081591
+    second: "mario esse pinto de pedra t\xE1 limpo copy_27"
+  - first:
+      213: -805309329299552729
+    second: "mario esse pinto de pedra t\xE1 limpo copy_28"
+  - first:
+      213: -1279272804978459344
+    second: "mario esse pinto de pedra t\xE1 limpo copy_29"
+  - first:
+      213: 7290158115215530826
+    second: "mario esse pinto de pedra t\xE1 limpo copy_30"
+  - first:
+      213: -1076804652028204702
+    second: "mario esse pinto de pedra t\xE1 limpo copy_31"
+  - first:
+      213: -6648802966863186609
+    second: "mario esse pinto de pedra t\xE1 limpo copy_32"
+  - first:
+      213: -6934720533897781059
+    second: "mario esse pinto de pedra t\xE1 limpo copy_33"
+  - first:
+      213: 2679031839224486106
+    second: "mario esse pinto de pedra t\xE1 limpo copy_34"
+  - first:
+      213: -6023537546107680981
+    second: "mario esse pinto de pedra t\xE1 limpo copy_35"
+  - first:
+      213: -5511931819799263060
+    second: "mario esse pinto de pedra t\xE1 limpo copy_36"
+  - first:
+      213: 2614365573761076326
+    second: "mario esse pinto de pedra t\xE1 limpo copy_37"
+  - first:
+      213: -509090516418968219
+    second: "mario esse pinto de pedra t\xE1 limpo copy_38"
+  - first:
+      213: -3217697757466468956
+    second: "mario esse pinto de pedra t\xE1 limpo copy_39"
+  - first:
+      213: -1246699295970284060
+    second: "mario esse pinto de pedra t\xE1 limpo copy_40"
+  - first:
+      213: 4040835645928432243
+    second: "mario esse pinto de pedra t\xE1 limpo copy_41"
+  - first:
+      213: 2996291645672318772
+    second: "mario esse pinto de pedra t\xE1 limpo copy_42"
+  - first:
+      213: 7550634818404300086
+    second: "mario esse pinto de pedra t\xE1 limpo copy_43"
+  - first:
+      213: -2032820775069243190
+    second: "mario esse pinto de pedra t\xE1 limpo copy_44"
+  - first:
+      213: 766844823970554819
+    second: "mario esse pinto de pedra t\xE1 limpo copy_45"
+  - first:
+      213: 8329631113198638044
+    second: "mario esse pinto de pedra t\xE1 limpo copy_46"
+  - first:
+      213: 8082738265895694338
+    second: "mario esse pinto de pedra t\xE1 limpo copy_47"
+  - first:
+      213: 2190191458830457784
+    second: "mario esse pinto de pedra t\xE1 limpo copy_48"
+  - first:
+      213: 7222352427555048112
+    second: "mario esse pinto de pedra t\xE1 limpo copy_49"
+  - first:
+      213: 7624097850586915576
+    second: "mario esse pinto de pedra t\xE1 limpo copy_50"
+  - first:
+      213: -4904698150629481402
+    second: "mario esse pinto de pedra t\xE1 limpo copy_51"
+  - first:
+      213: 1668572111930584728
+    second: "mario esse pinto de pedra t\xE1 limpo copy_52"
+  - first:
+      213: 6599709393449309152
+    second: "mario esse pinto de pedra t\xE1 limpo copy_53"
+  - first:
+      213: -7765202284999227642
+    second: "mario esse pinto de pedra t\xE1 limpo copy_54"
+  - first:
+      213: -221258106507014950
+    second: "mario esse pinto de pedra t\xE1 limpo copy_55"
+  - first:
+      213: -3280861016684168347
+    second: "mario esse pinto de pedra t\xE1 limpo copy_56"
+  - first:
+      213: -6216677687518718322
+    second: "mario esse pinto de pedra t\xE1 limpo copy_57"
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_0"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 935
+        width: 256
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d034df018fc9a50800000000000000
+      internalID: 6529366311632571750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_1"
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 887
+        width: 256
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060557b86e8a9a340800000000000000
+      internalID: 4875613779740938336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_2"
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1055
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba0aea6d92a32dc0800000000000000
+      internalID: -3664906874762163527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_3"
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1055
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44435f69b33533a80800000000000000
+      internalID: -8488349357262425020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_4"
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1055
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88266ba9229fd7e50800000000000000
+      internalID: 6808872138673906312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_5"
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1055
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f50df223e0979630800000000000000
+      internalID: 3933772104750401013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_6"
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 982
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea340a256412d3e0800000000000000
+      internalID: -2030538057261499666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_7"
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 982
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558ef486edc22fe60800000000000000
+      internalID: 7994501622280480853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_8"
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 982
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb2e645d1fce8e10800000000000000
+      internalID: 2201924992708258785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_9"
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 982
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7594f064f47c2fbf0800000000000000
+      internalID: -291951882533910185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_10"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 927
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01adb86dcc6408280800000000000000
+      internalID: -9043150206173193712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_11"
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 927
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5325accae355e1b80800000000000000
+      internalID: -8422200525460975051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_12"
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 918
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3b9080193e312d0800000000000000
+      internalID: -3309051089142565904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_13"
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 909
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155f464570936e4d0800000000000000
+      internalID: -3105732189381921455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_14"
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 909
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8da80d02d1a1da30800000000000000
+      internalID: 4238346647866224014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_15"
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 909
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15beb1c0401fa8970800000000000000
+      internalID: 8758077425060670289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_16"
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 909
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a841e101e7f61e860800000000000000
+      internalID: 7557444236931372170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_17"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 256
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923ebdc62869c88e0800000000000000
+      internalID: -1689810273254513879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_18"
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 646
+        width: 256
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8dd13ce211507a0800000000000000
+      internalID: -6411699601952352088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_19"
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 836
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24855ed9cd2bd06b0800000000000000
+      internalID: -5328406123497826238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_20"
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 836
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e56c0b8a186ac020800000000000000
+      internalID: 2362815417720530403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_21"
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 836
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e009798cfb969b7a0800000000000000
+      internalID: -6360936726259068914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_22"
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 836
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe1a08b418baa450800000000000000
+      internalID: 6100891044353285882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_23"
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 763
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e685c90bfab14c10800000000000000
+      internalID: 2036114093911672551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_24"
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 763
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24030b7707fdda510800000000000000
+      internalID: 1562150319904796738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_25"
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 763
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d844fb361bf99fb0800000000000000
+      internalID: -4640401868114868011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_26"
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 763
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0e39ae78a372880800000000000000
+      internalID: -8635869405029080835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_27"
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 690
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94863ca059c877eb0800000000000000
+      internalID: -4722151112516081591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_28"
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 690
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726cac48e67f2d4f0800000000000000
+      internalID: -805309329299552729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_29"
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 690
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03df078692c1f3ee0800000000000000
+      internalID: -1279272804978459344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_30"
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 690
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b5add4e28db2560800000000000000
+      internalID: 7290158115215530826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_31"
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 405
+        width: 256
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269ee57cfdb6e01f0800000000000000
+      internalID: -1076804652028204702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_32"
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 617
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f457e82bde4bab3a0800000000000000
+      internalID: -6648802966863186609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_33"
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 617
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db06a688a6ce2cf90800000000000000
+      internalID: -6934720533897781059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_34"
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 617
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8dfee7345dd2520800000000000000
+      internalID: 2679031839224486106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_35"
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 617
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2706011488186ca0800000000000000
+      internalID: -6023537546107680981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_36"
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 544
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca841be963fa183b0800000000000000
+      internalID: -5511931819799263060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_37"
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 544
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c0a0943a7184420800000000000000
+      internalID: 2614365573761076326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_38"
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 544
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565c3526fd85fe8f0800000000000000
+      internalID: -509090516418968219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_39"
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 544
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4add3ab00f07853d0800000000000000
+      internalID: -3217697757466468956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_40"
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 471
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed26f97895d2bee0800000000000000
+      internalID: -1246699295970284060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_41"
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 471
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372ec475c9ee31830800000000000000
+      internalID: 4040835645928432243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_42"
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 471
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437e4cf6067f49920800000000000000
+      internalID: 2996291645672318772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_43"
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 471
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6353fa3cc5e39c860800000000000000
+      internalID: 7550634818404300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_44"
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 336
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8a6f18648f9c3e0800000000000000
+      internalID: -2032820775069243190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_45"
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 398
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3ac92fd4164aa00800000000000000
+      internalID: 766844823970554819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_46"
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 398
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd31f3c7d5bc89370800000000000000
+      internalID: 8329631113198638044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_47"
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 398
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2007b2fe0a7ab2070800000000000000
+      internalID: 8082738265895694338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_48"
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 398
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb1fa5178f156e10800000000000000
+      internalID: 2190191458830457784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_49"
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 325
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba49176443fa3460800000000000000
+      internalID: 7222352427555048112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_50"
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 176
+        width: 384
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f26d05d99c3ec960800000000000000
+      internalID: 7624097850586915576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_51"
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 159
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644e639a4030febb0800000000000000
+      internalID: -4904698150629481402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_52"
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 163
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89eeebdce75f72710800000000000000
+      internalID: 1668572111930584728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_53"
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 164
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3da510ab0e69b50800000000000000
+      internalID: 6599709393449309152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_54"
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 162
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607c191e9a57c3490800000000000000
+      internalID: -7765202284999227642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_55"
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 160
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc49f5aceeedecf0800000000000000
+      internalID: -221258106507014950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_56"
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 162
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bfc1fb94a0872d0800000000000000
+      internalID: -3280861016684168347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "mario esse pinto de pedra t\xE1 limpo copy_57"
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1
+        width: 224
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e869950a49ce9b9a0800000000000000
+      internalID: -6216677687518718322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

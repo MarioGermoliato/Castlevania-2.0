@@ -1,0 +1,397 @@
+fileFormatVersion: 2
+guid: 48a2aa3c5a0d7054799495fbf8073101
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6948956889726530262
+    second: NES - Castlevania - Title Screen_0
+  - first:
+      213: 66964369876303697
+    second: NES - Castlevania - Title Screen_1
+  - first:
+      213: 3603351755704355462
+    second: NES - Castlevania - Title Screen_2
+  - first:
+      213: 1110580239430012687
+    second: NES - Castlevania - Title Screen_3
+  - first:
+      213: -6487131320420995762
+    second: NES - Castlevania - Title Screen_4
+  - first:
+      213: 8275890833652139120
+    second: NES - Castlevania - Title Screen_5
+  - first:
+      213: -2347280223500597179
+    second: NES - Castlevania - Title Screen_6
+  - first:
+      213: -2823467460737789411
+    second: NES - Castlevania - Title Screen_7
+  - first:
+      213: 1975894221571989395
+    second: NES - Castlevania - Title Screen_8
+  - first:
+      213: 8517813174119963139
+    second: NES - Castlevania - Title Screen_9
+  - first:
+      213: -4297755421320185160
+    second: NES - Castlevania - Title Screen_10
+  - first:
+      213: 7905327814284281458
+    second: NES - Castlevania - Title Screen_11
+  - first:
+      213: -2945475788372466314
+    second: NES - Castlevania - Title Screen_12
+  - first:
+      213: 5298899236347175536
+    second: NES - Castlevania - Title Screen_13
+  - first:
+      213: 262600404963912046
+    second: NES - Castlevania - Title Screen_14
+  - first:
+      213: 7684964876138534634
+    second: NES - Castlevania - Title Screen_15
+  - first:
+      213: 61515755185438150
+    second: NES - Castlevania - Title Screen_16
+  - first:
+      213: -4854816921741704928
+    second: NES - Castlevania - Title Screen_17
+  - first:
+      213: 8758119873724964276
+    second: NES - Castlevania - Title Screen_18
+  - first:
+      213: 251146256516891155
+    second: NES - Castlevania - Title Screen_19
+  - first:
+      213: -4594923080477985613
+    second: NES - Castlevania - Title Screen_20
+  - first:
+      213: -5299304790338009157
+    second: NES - Castlevania - Title Screen_21
+  - first:
+      213: -8146954001118033727
+    second: NES - Castlevania - Title Screen_22
+  - first:
+      213: 3625361739170622972
+    second: NES - Castlevania - Title Screen_23
+  - first:
+      213: 1582182848039482444
+    second: NES - Castlevania - Title Screen_24
+  - first:
+      213: 7686690424805048386
+    second: NES - Castlevania - Title Screen_25
+  - first:
+      213: -7954491441590299150
+    second: NES - Castlevania - Title Screen_26
+  - first:
+      213: -6759727255944866440
+    second: NES - Castlevania - Title Screen_27
+  - first:
+      213: -7429810508041735436
+    second: NES - Castlevania - Title Screen_28
+  - first:
+      213: -3720062723563621206
+    second: NES - Castlevania - Title Screen_29
+  - first:
+      213: 8106182676695800084
+    second: NES - Castlevania - Title Screen_30
+  - first:
+      213: -1125557406449411782
+    second: NES - Castlevania - Title Screen_31
+  - first:
+      213: -2912137125857487252
+    second: NES - Castlevania - Title Screen_32
+  - first:
+      213: 4890252490392881366
+    second: NES - Castlevania - Title Screen_33
+  - first:
+      213: 8475135614224675571
+    second: NES - Castlevania - Title Screen_34
+  - first:
+      213: 8085145953425747283
+    second: NES - Castlevania - Title Screen_35
+  - first:
+      213: 3784845551720202233
+    second: NES - Castlevania - Title Screen_36
+  - first:
+      213: 4423566590879751189
+    second: NES - Castlevania - Title Screen_37
+  - first:
+      213: -1958595002376425020
+    second: NES - Castlevania - Title Screen_38
+  - first:
+      213: -7159990352089078796
+    second: NES - Castlevania - Title Screen_39
+  - first:
+      213: -5364617316688071021
+    second: NES - Castlevania - Title Screen_40
+  - first:
+      213: 2442715324737479222
+    second: NES - Castlevania - Title Screen_41
+  - first:
+      213: 8792073784397880221
+    second: NES - Castlevania - Title Screen_42
+  - first:
+      213: -4697755839274622630
+    second: NES - Castlevania - Title Screen_43
+  - first:
+      213: 5559980021634627631
+    second: NES - Castlevania - Title Screen_44
+  - first:
+      213: 1036065518443315272
+    second: NES - Castlevania - Title Screen_45
+  - first:
+      213: -7899801234477497448
+    second: NES - Castlevania - Title Screen_46
+  - first:
+      213: 1631599985021438719
+    second: NES - Castlevania - Title Screen_47
+  - first:
+      213: 8683943735620728625
+    second: NES - Castlevania - Title Screen_48
+  - first:
+      213: -6164302332559282369
+    second: NES - Castlevania - Title Screen_49
+  - first:
+      213: 7931777448620725630
+    second: NES - Castlevania - Title Screen_50
+  - first:
+      213: -7916929866756850679
+    second: NES - Castlevania - Title Screen_51
+  - first:
+      213: 5187381259356867409
+    second: NES - Castlevania - Title Screen_52
+  - first:
+      213: 627792403253116031
+    second: NES - Castlevania - Title Screen_53
+  - first:
+      213: 2742391514036597819
+    second: NES - Castlevania - Title Screen_54
+  - first:
+      213: 1666229536866482186
+    second: NES - Castlevania - Title Screen_55
+  - first:
+      213: 6157329368479134947
+    second: NES - Castlevania - Title Screen_56
+  - first:
+      213: -3507613636064427636
+    second: NES - Castlevania - Title Screen_57
+  - first:
+      213: -8141041209623020854
+    second: NES - Castlevania - Title Screen_58
+  - first:
+      213: -3697714983422546284
+    second: NES - Castlevania - Title Screen_59
+  - first:
+      213: -1146180140424497408
+    second: NES - Castlevania - Title Screen_60
+  - first:
+      213: -3869594138099874770
+    second: NES - Castlevania - Title Screen_61
+  - first:
+      213: 7659333421397334143
+    second: NES - Castlevania - Title Screen_62
+  - first:
+      213: -4221296813059030410
+    second: NES - Castlevania - Title Screen_63
+  - first:
+      213: 8212030080907876982
+    second: NES - Castlevania - Title Screen_64
+  - first:
+      213: 8424533049691282455
+    second: NES - Castlevania - Title Screen_65
+  - first:
+      213: 6480443554958378635
+    second: NES - Castlevania - Title Screen_66
+  - first:
+      213: -8104324591921466954
+    second: NES - Castlevania - Title Screen_67
+  - first:
+      213: -1519075032313363789
+    second: NES - Castlevania - Title Screen_68
+  - first:
+      213: -8203346936205137173
+    second: NES - Castlevania - Title Screen_69
+  - first:
+      213: -7535268138757693097
+    second: NES - Castlevania - Title Screen_70
+  - first:
+      213: 2464989247532267729
+    second: NES - Castlevania - Title Screen_71
+  - first:
+      213: -2148385999234216915
+    second: NES - Castlevania - Title Screen_72
+  - first:
+      213: -1690097298905173282
+    second: NES - Castlevania - Title Screen_73
+  - first:
+      213: 3257258272150408902
+    second: NES - Castlevania - Title Screen_74
+  - first:
+      213: 3911969763142724668
+    second: NES - Castlevania - Title Screen_75
+  - first:
+      213: -7055022904389694137
+    second: NES - Castlevania - Title Screen_76
+  - first:
+      213: 5626447223550986034
+    second: NES - Castlevania - Title Screen_77
+  - first:
+      213: 3584163079211177151
+    second: NES - Castlevania - Title Screen_78
+  - first:
+      213: 8311283108521455204
+    second: NES - Castlevania - Title Screen_79
+  - first:
+      213: 8036785173446311916
+    second: NES - Castlevania - Title Screen_80
+  - first:
+      213: -4712323507642605837
+    second: NES - Castlevania - Title Screen_81
+  - first:
+      213: -2769018660794509741
+    second: NES - Castlevania - Title Screen_82
+  - first:
+      213: -182376133135667482
+    second: NES - Castlevania - Title Screen_83
+  - first:
+      213: -8988628108234434981
+    second: NES - Castlevania - Title Screen_84
+  - first:
+      213: -8323420735178327038
+    second: NES - Castlevania - Title Screen_85
+  - first:
+      213: -7530641912426107650
+    second: NES - Castlevania - Title Screen_86
+  - first:
+      213: 4448209723009096235
+    second: NES - Castlevania - Title Screen_87
+  - first:
+      213: 5338008853339250142
+    second: NES - Castlevania - Title Screen_88
+  - first:
+      213: -2241039207891800302
+    second: NES - Castlevania - Title Screen_89
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
