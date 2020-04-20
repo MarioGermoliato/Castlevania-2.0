@@ -1,7 +1,10 @@
 fileFormatVersion: 2
 guid: 4992f94cf990a15428d44b3c289a867a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2080341304960292374
+    second: NES - Castlevania - Level 1 Entrance_0
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
