@@ -8,5 +8,5 @@ public static class SceneControll
   public static void ChangeScene(string Scene)
     {
         SceneManager.LoadScene(Scene);
-    }
+    }    
 }

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -29,6 +30,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private Transform hand;
 
+    [Header("HUD")]
+    public Text scoreTxt;
+    public Text timeTxt;
+    public Text heartsTxt;
+    public Text lifesTxt;
+    
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -50,12 +59,19 @@ public class PlayerController : MonoBehaviour
     }
 
     void MoveCharacter()
-    {
-        float x = Input.GetAxis("Horizontal");
-        float speedY = playerRB.velocity.y;
-        playerRB.velocity = new Vector2(x * velocityPlayer, speedY);
+    {        
+            float x = Input.GetAxis("Horizontal");        
+
+        if (isAttacking == true && isGrounded == true)
+        {
+            x = 0;
+        }
+
+        float speedY = playerRB.velocity.y;       
+        playerRB.velocity = new Vector2(x * velocityPlayer, speedY);        
         playerAnimator.SetFloat("MoveSpeed", Mathf.Abs(x));
         playerAnimator.SetBool("isGrounded", isGrounded);
+        
 
         if (Input.GetButtonDown("Jump") && isGrounded == true)
         {            
@@ -71,7 +87,7 @@ public class PlayerController : MonoBehaviour
 
     void Crouch()
     {
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.S) && isGrounded == true)
         {
             isCrouched = true;
             playerRB.velocity = new Vector2(0, playerRB.velocity.y);
@@ -87,12 +103,34 @@ public class PlayerController : MonoBehaviour
     {
         if(Input.GetButtonDown("Fire1") /*&& isAttacking == false*/)
         {
-            //isAttacking = true;
-            playerAnimator.SetTrigger("isAttacking");
-            playerRB.velocity = new Vector2(0, playerRB.velocity.y);
+            isAttacking = true;
+            playerAnimator.SetTrigger("isAttacking");           
         }
 
 
+    }
+
+    void EndAttack()
+    {
+        StartCoroutine("DelayAttack");
+    }
+
+    IEnumerator DelayAttack()
+    {
+        yield return new WaitForSeconds(0.12f);
+        isAttacking = false;
+    }
+
+    private void ToScore(int nPoints)
+    {
+        GlobalStats.score += nPoints;
+        scoreTxt.text = "SCORE-" + GlobalStats.score.ToString();        
+    }
+
+    private void CollectHearts(int nHearts )
+    {
+        GlobalStats.hearts += nHearts;
+        heartsTxt.text = "-" + GlobalStats.hearts.ToString();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -102,6 +140,26 @@ public class PlayerController : MonoBehaviour
             GlobalStats.powerUps += 1;
             playerAnimator.SetInteger("powerUp", GlobalStats.powerUps);
             Destroy(collision.gameObject);
+        }
+        else if(collision.CompareTag("SmallHeart"))
+        {
+            CollectHearts(1);
+        }
+        else if(collision.CompareTag("BigHeart"))
+        {
+            CollectHearts(5);
+        }
+        else if (collision.CompareTag("RedBag"))
+        {
+            ToScore(100);
+        }
+        else if (collision.CompareTag("PurpleBag"))
+        {
+            ToScore(300);
+        }
+        else if (collision.CompareTag("WhiteBag"))
+        {
+            ToScore(700);
         }
     }
 }

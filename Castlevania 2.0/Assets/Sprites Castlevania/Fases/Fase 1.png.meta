@@ -1,0 +1,385 @@
+fileFormatVersion: 2
+guid: 4e08257197e167f498b574f3656f9589
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8209703644746512667
+    second: Fase 1_0
+  - first:
+      213: 4762810904907675838
+    second: Fase 1_1
+  - first:
+      213: -7437666090977563583
+    second: Fase 1_2
+  - first:
+      213: 701051305810812978
+    second: Fase 1_3
+  - first:
+      213: 7943286283267052197
+    second: Fase 1_4
+  - first:
+      213: 569896780534588695
+    second: Fase 1_5
+  - first:
+      213: 8962335310140956793
+    second: Fase 1_6
+  - first:
+      213: 3167917059934322318
+    second: Fase 1_7
+  - first:
+      213: -5107037137943396575
+    second: Fase 1_8
+  - first:
+      213: 7501386395175976504
+    second: Fase 1_9
+  - first:
+      213: 6315286691539072946
+    second: Fase 1_10
+  - first:
+      213: -5801242691285970579
+    second: Fase 1_11
+  - first:
+      213: -771572182351970958
+    second: Fase 1_12
+  - first:
+      213: 4754731990358093616
+    second: Fase 1_13
+  - first:
+      213: -1798240536651592575
+    second: Fase 1_14
+  - first:
+      213: 6933698355413815774
+    second: Fase 1_15
+  - first:
+      213: -2723857616662461686
+    second: Fase 1_16
+  - first:
+      213: -6427619321380720414
+    second: Fase 1_17
+  - first:
+      213: -7953574530812890265
+    second: Fase 1_18
+  - first:
+      213: -6152379560842612907
+    second: Fase 1_19
+  - first:
+      213: 495631365055541576
+    second: Fase 1_20
+  - first:
+      213: -1628383950267994042
+    second: Fase 1_21
+  - first:
+      213: 8664069325581031531
+    second: Fase 1_22
+  - first:
+      213: 801362748653314777
+    second: Fase 1_23
+  - first:
+      213: 8080667356251389290
+    second: Fase 1_24
+  - first:
+      213: -6118064077440792968
+    second: Fase 1_25
+  - first:
+      213: 4592102980896527633
+    second: Fase 1_26
+  - first:
+      213: -3458983255841693645
+    second: Fase 1_27
+  - first:
+      213: 6426150805279972901
+    second: Fase 1_28
+  - first:
+      213: -1337832530199318654
+    second: Fase 1_29
+  - first:
+      213: 1563903871881272202
+    second: Fase 1_30
+  - first:
+      213: -4212476443180823541
+    second: Fase 1_31
+  - first:
+      213: -3669163424305276291
+    second: Fase 1_32
+  - first:
+      213: -7522230410678276743
+    second: Fase 1_33
+  - first:
+      213: 1003310183038433180
+    second: Fase 1_34
+  - first:
+      213: 7279133294093462236
+    second: Fase 1_35
+  - first:
+      213: 2955056662954161524
+    second: Fase 1_36
+  - first:
+      213: 2066108345869673836
+    second: Fase 1_37
+  - first:
+      213: 2490040382604346546
+    second: Fase 1_38
+  - first:
+      213: -2916328355487825205
+    second: Fase 1_39
+  - first:
+      213: -906223716911328413
+    second: Fase 1_40
+  - first:
+      213: -4709180936031398660
+    second: Fase 1_41
+  - first:
+      213: 668371546903880719
+    second: Fase 1_42
+  - first:
+      213: -4567881864400068640
+    second: Fase 1_43
+  - first:
+      213: -4264127148821997546
+    second: Fase 1_44
+  - first:
+      213: 8187837626248179484
+    second: Fase 1_45
+  - first:
+      213: -2491149260781124978
+    second: Fase 1_46
+  - first:
+      213: -894619388081628549
+    second: Fase 1_47
+  - first:
+      213: 57197488274318416
+    second: Fase 1_48
+  - first:
+      213: -8084689643160354148
+    second: Fase 1_49
+  - first:
+      213: -5962521047909096156
+    second: Fase 1_50
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 21
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fase 1_13
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 208
+        width: 1536
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fea77bd833cf140800000000000000
+      internalID: 4754731990358093616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fase 1_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 208
+        width: 768
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3635772b4527c63f0800000000000000
+      internalID: -906223716911328413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fase 1_41
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 208
+        width: 512
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf49ec493e0a5aeb0800000000000000
+      internalID: -4709180936031398660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fase 1_42
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 208
+        width: 768
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f042f277168864900800000000000000
+      internalID: 668371546903880719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fase 1_49
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 1
+        width: 512
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92c524aa996dcf80800000000000000
+      internalID: -8084689643160354148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Stop
   - PowerUp
+  - RedBag
+  - SmallHeart
+  - BigHeart
+  - PurpleBag
+  - WhiteBag
   layers:
   - Default
   - TransparentFX
