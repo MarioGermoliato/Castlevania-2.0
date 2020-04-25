@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
+    // acesso a outros scripts
+    private CameraController _CameraController;
+    private SoundManager _SoundManager;
     public Rigidbody2D playerRB;
     
     public Animator playerAnimator;
@@ -14,6 +17,8 @@ public class PlayerController : MonoBehaviour
     private float velocityPlayer;
     [SerializeField]
     private float jumpSpeed;
+    [SerializeField]
+    private bool stop;
 
     [SerializeField]
     private BoxCollider2D playerHitBox;
@@ -35,15 +40,22 @@ public class PlayerController : MonoBehaviour
     public Text timeTxt;
     public Text heartsTxt;
     public Text lifesTxt;
+    public int faseTime;
     
 
 
     // Start is called before the first frame update
     void Start()
     {
+        _CameraController = FindObjectOfType(typeof(CameraController)) as CameraController;
+        _SoundManager = FindObjectOfType(typeof(SoundManager)) as SoundManager;
+        _CameraController.playerTransform = this.transform;
+
         playerRB = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
         playerHitBox = GetComponent<BoxCollider2D>();
+
+        StartCoroutine("TimeCounter");
     }
 
     // Update is called once per frame
@@ -60,7 +72,11 @@ public class PlayerController : MonoBehaviour
 
     void MoveCharacter()
     {        
-            float x = Input.GetAxis("Horizontal");        
+            float x = Input.GetAxis("Horizontal");   
+        if (stop == true)
+        {
+            x = 0;
+        }
 
         if (isAttacking == true && isGrounded == true)
         {
@@ -104,7 +120,8 @@ public class PlayerController : MonoBehaviour
         if(Input.GetButtonDown("Fire1") /*&& isAttacking == false*/)
         {
             isAttacking = true;
-            playerAnimator.SetTrigger("isAttacking");           
+            playerAnimator.SetTrigger("isAttacking");
+           
         }
 
 
@@ -114,12 +131,11 @@ public class PlayerController : MonoBehaviour
     {
         StartCoroutine("DelayAttack");
     }
-
-    IEnumerator DelayAttack()
+    void EndStop()
     {
-        yield return new WaitForSeconds(0.12f);
-        isAttacking = false;
+        stop = false;
     }
+        
 
     private void ToScore(int nPoints)
     {
@@ -131,7 +147,7 @@ public class PlayerController : MonoBehaviour
     {
         GlobalStats.hearts += nHearts;
         heartsTxt.text = "-" + GlobalStats.hearts.ToString();
-    }
+    }    
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -139,27 +155,56 @@ public class PlayerController : MonoBehaviour
         {
             GlobalStats.powerUps += 1;
             playerAnimator.SetInteger("powerUp", GlobalStats.powerUps);
-            Destroy(collision.gameObject);
+            Debug.Log("Coletou1");
+            playerAnimator.SetTrigger("powerUpCollect");
+            _SoundManager.audioSource.PlayOneShot(_SoundManager.collectUpgrade);
+            Debug.Log("Coletou2");
+            stop = true;
+            Destroy(collision.gameObject);            
         }
         else if(collision.CompareTag("SmallHeart"))
         {
             CollectHearts(1);
+            Destroy(collision.gameObject);
         }
         else if(collision.CompareTag("BigHeart"))
         {
             CollectHearts(5);
+            Destroy(collision.gameObject);
         }
         else if (collision.CompareTag("RedBag"))
         {
             ToScore(100);
+            Destroy(collision.gameObject);
         }
         else if (collision.CompareTag("PurpleBag"))
         {
             ToScore(300);
+            Destroy(collision.gameObject);
         }
         else if (collision.CompareTag("WhiteBag"))
         {
             ToScore(700);
+            Destroy(collision.gameObject);
         }
+    }
+
+    public void PlayAttackFx()
+    {
+        _SoundManager.audioSource.PlayOneShot(_SoundManager.attackWhip);
+    }
+
+    IEnumerator DelayAttack()
+    {
+        yield return new WaitForSeconds(0.12f);
+        isAttacking = false;
+    }
+
+    IEnumerator TimeCounter()
+    {
+        yield return new WaitForSeconds(1);
+        faseTime -= 1;
+        timeTxt.text = "TIME 0" + faseTime;
+        StartCoroutine("TimeCounter");
     }
 }
