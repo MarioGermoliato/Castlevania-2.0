@@ -11,6 +11,7 @@ TagManager:
   - BigHeart
   - PurpleBag
   - WhiteBag
+  - Whip
   layers:
   - Default
   - TransparentFX
