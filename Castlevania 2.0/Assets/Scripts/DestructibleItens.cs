@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum ItensDrop { LittleHeart, BigHeart, Upgrade, RedBag, PurpleBag, WhiteBag }
 public class DestructibleItens : MonoBehaviour
 {
-    public enum ItensDrop {LittleHeart, BigHeart, Upgrade }
+    
 
     public ItensDrop dropItem;
 
@@ -33,20 +34,20 @@ public class DestructibleItens : MonoBehaviour
         {
             if (GlobalStats.powerUps < 2)
             {
-                Instantiate(powerUp);
+                Instantiate(powerUp, new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z), this.transform.localRotation);
             }
             else
             {
-                Instantiate(bigHeart);
+                Instantiate(bigHeart, new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z), this.transform.localRotation);
             }
         }
         else if (dropItem == ItensDrop.BigHeart)
         {
-            Instantiate(bigHeart);
+            Instantiate(bigHeart, new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z), this.transform.localRotation);
         }
         else if (dropItem == ItensDrop.LittleHeart)
         {
-            Instantiate(smallHeart);
+            Instantiate(smallHeart, new Vector3 (this.transform.position.x, this.transform.position.y, this.transform.position.z), this.transform.localRotation);
         }
         Destroy(this.gameObject);
     }

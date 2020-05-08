@@ -8,7 +8,8 @@ public static class GlobalStats
     // informacoes da HUD e chicote
     public static int powerUps;
     public static int score;
-    public static int hearts;    
+    public static int hearts;
+  
 
-           
+
 }

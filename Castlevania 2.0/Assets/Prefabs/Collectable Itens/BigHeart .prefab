@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4566387584170743969}
   - component: {fileID: 4566387584170743968}
   - component: {fileID: 4566387584170743964}
+  - component: {fileID: 21620220724497607}
   m_Layer: 0
   m_Name: 'BigHeart '
   m_TagString: BigHeart
@@ -158,3 +159,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.75903046, y: 0.7610769}
   m_EdgeRadius: 0
+--- !u!114 &21620220724497607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4566387584170743971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d2adc264f0e68849b72b40bddec4259, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentItem: 1

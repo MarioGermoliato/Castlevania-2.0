@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
     // acesso a outros scripts
     private CameraController _CameraController;
     private SoundManager _SoundManager;
+    private UIManager _UIManager;
+
     public Rigidbody2D playerRB;
     
     public Animator playerAnimator;
@@ -16,9 +18,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private float velocityPlayer;
     [SerializeField]
-    private float jumpSpeed;
-    [SerializeField]
-    private bool stop;
+    private float jumpSpeed;    
+    public bool stop;
 
     [SerializeField]
     private BoxCollider2D playerHitBox;
@@ -34,14 +35,12 @@ public class PlayerController : MonoBehaviour
     private bool isAttacking;
     [SerializeField]
     private Transform hand;
+      
+    [SerializeField]
+    private int faseTime;
 
-    [Header("HUD")]
-    public Text scoreTxt;
-    public Text timeTxt;
-    public Text heartsTxt;
-    public Text lifesTxt;
-    public int faseTime;
-    
+    public bool upgradeCatch;
+
 
 
     // Start is called before the first frame update
@@ -49,6 +48,7 @@ public class PlayerController : MonoBehaviour
     {
         _CameraController = FindObjectOfType(typeof(CameraController)) as CameraController;
         _SoundManager = FindObjectOfType(typeof(SoundManager)) as SoundManager;
+        _UIManager = FindObjectOfType(typeof(UIManager)) as UIManager;
         _CameraController.playerTransform = this.transform;
 
         playerRB = GetComponent<Rigidbody2D>();
@@ -63,7 +63,7 @@ public class PlayerController : MonoBehaviour
     {
         MoveCharacter();
         Crouch();
-        Attack();
+        Attack();        
     }
     void FixedUpdate()
     {
@@ -140,19 +140,65 @@ public class PlayerController : MonoBehaviour
     private void ToScore(int nPoints)
     {
         GlobalStats.score += nPoints;
-        scoreTxt.text = "SCORE-" + GlobalStats.score.ToString();        
+        _UIManager.scoreTxt.text = "SCORE-" + GlobalStats.score.ToString();        
     }
 
     private void CollectHearts(int nHearts )
     {
         GlobalStats.hearts += nHearts;
-        heartsTxt.text = "-" + GlobalStats.hearts.ToString();
+        _UIManager.heartsTxt.text = "-" + GlobalStats.hearts.ToString();
     }    
 
-    private void OnTriggerEnter2D(Collider2D collision)
+   /* private void OnTriggerEnter2D(Collider2D collision)
+    {   
+        
+            if (collision.CompareTag("PowerUp"))
+            {
+                GlobalStats.powerUps += 1;
+                playerAnimator.SetInteger("powerUp", GlobalStats.powerUps);
+                Debug.Log("Coletou1");
+                playerAnimator.SetTrigger("powerUpCollect");
+                _SoundManager.audioSource.PlayOneShot(_SoundManager.collectUpgrade);
+                Debug.Log("Coletou2");
+                stop = true;
+                Destroy(collision.gameObject);
+            }
+            else if (collision.CompareTag("SmallHeart"))
+            {
+                CollectHearts(1);
+                Destroy(collision.gameObject);
+            }
+            else if (collision.CompareTag("BigHeart"))
+            {
+                CollectHearts(5);
+                Destroy(collision.gameObject);
+            }
+            else if (collision.CompareTag("RedBag"))
+            {
+                ToScore(100);
+                Destroy(collision.gameObject);
+            }
+            else if (collision.CompareTag("PurpleBag"))
+            {
+                ToScore(300);
+                Destroy(collision.gameObject);
+            }
+            else if (collision.CompareTag("WhiteBag"))
+            {
+                ToScore(700);
+                Destroy(collision.gameObject);
+            }
+        
+    }*/
+
+    public void PlayAttackFx()
     {
-        if (collision.CompareTag("PowerUp"))
-        {
+        _SoundManager.audioSource.PlayOneShot(_SoundManager.attackWhip);
+    }
+
+    public void GetUpgrade()
+    {      
+            upgradeCatch = false;
             GlobalStats.powerUps += 1;
             playerAnimator.SetInteger("powerUp", GlobalStats.powerUps);
             Debug.Log("Coletou1");
@@ -160,38 +206,8 @@ public class PlayerController : MonoBehaviour
             _SoundManager.audioSource.PlayOneShot(_SoundManager.collectUpgrade);
             Debug.Log("Coletou2");
             stop = true;
-            Destroy(collision.gameObject);            
-        }
-        else if(collision.CompareTag("SmallHeart"))
-        {
-            CollectHearts(1);
-            Destroy(collision.gameObject);
-        }
-        else if(collision.CompareTag("BigHeart"))
-        {
-            CollectHearts(5);
-            Destroy(collision.gameObject);
-        }
-        else if (collision.CompareTag("RedBag"))
-        {
-            ToScore(100);
-            Destroy(collision.gameObject);
-        }
-        else if (collision.CompareTag("PurpleBag"))
-        {
-            ToScore(300);
-            Destroy(collision.gameObject);
-        }
-        else if (collision.CompareTag("WhiteBag"))
-        {
-            ToScore(700);
-            Destroy(collision.gameObject);
-        }
-    }
-
-    public void PlayAttackFx()
-    {
-        _SoundManager.audioSource.PlayOneShot(_SoundManager.attackWhip);
+            Debug.Log(GlobalStats.powerUps);
+        
     }
 
     IEnumerator DelayAttack()
@@ -204,7 +220,7 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         faseTime -= 1;
-        timeTxt.text = "TIME 0" + faseTime;
+        _UIManager.timeTxt.text = "TIME 0" + faseTime;
         StartCoroutine("TimeCounter");
     }
 }
