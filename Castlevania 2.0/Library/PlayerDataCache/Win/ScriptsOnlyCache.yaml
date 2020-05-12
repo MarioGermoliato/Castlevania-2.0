@@ -2,12 +2,17 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraController
+    - CollectableItens
+    - DestructibleItens
     - GameController
     - IntroWalk
     - PlayerController
     - SoundManager
+    - UIManager
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
@@ -65,21 +70,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11172}
     - Class: 114
-      Script: {instanceID: 11342}
+      Script: {instanceID: 11238}
     - Class: 114
-      Script: {instanceID: 11382}
+      Script: {instanceID: 11344}
     - Class: 114
-      Script: {instanceID: 11798}
+      Script: {instanceID: 11384}
     - Class: 114
-      Script: {instanceID: 12394}
+      Script: {instanceID: 11444}
     - Class: 114
-      Script: {instanceID: 12722}
+      Script: {instanceID: 11802}
     - Class: 114
-      Script: {instanceID: 12760}
+      Script: {instanceID: 11960}
     - Class: 114
-      Script: {instanceID: 13106}
+      Script: {instanceID: 12402}
     - Class: 114
-      Script: {instanceID: 13126}
+      Script: {instanceID: 12730}
+    - Class: 114
+      Script: {instanceID: 12768}
+    - Class: 114
+      Script: {instanceID: 13114}
+    - Class: 114
+      Script: {instanceID: 13134}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -134,13 +145,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11172}
     - Class: 114
-      Script: {instanceID: 11342}
+      Script: {instanceID: 11344}
     - Class: 114
-      Script: {instanceID: 11382}
+      Script: {instanceID: 11384}
     - Class: 114
-      Script: {instanceID: 11704}
+      Script: {instanceID: 11708}
     - Class: 114
-      Script: {instanceID: 12722}
+      Script: {instanceID: 12730}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -202,17 +213,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11172}
     - Class: 114
-      Script: {instanceID: 11382}
+      Script: {instanceID: 11384}
     - Class: 114
-      Script: {instanceID: 11798}
+      Script: {instanceID: 11802}
     - Class: 114
-      Script: {instanceID: 11976}
+      Script: {instanceID: 11984}
     - Class: 114
-      Script: {instanceID: 12210}
+      Script: {instanceID: 12218}
     - Class: 114
-      Script: {instanceID: 12722}
+      Script: {instanceID: 12730}
     - Class: 114
-      Script: {instanceID: 13106}
+      Script: {instanceID: 13114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -254,6 +265,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 65548579e417f3f7c0108d1f4e98353b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIManager
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
@@ -320,6 +337,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 11a9e955a089da1b68730da90ccc43d5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DestructibleItens
   - hash:
       serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
@@ -422,6 +445,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Enemy
+  - hash:
+      serializedVersion: 2
+      Hash: 49f96e8b585320dda2f02e0400401a93
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CollectableItens
   - hash:
       serializedVersion: 2
       Hash: 29d3ad6a448822cc8642da26d558ac30
@@ -562,7 +597,7 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: 4a9114f0e50f0ab2aa0a237a4db1daa6
+      Hash: 6b7fa304770318c6207e61a3ef741b31
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -658,7 +693,7 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
-      Hash: df0195e92e8cfb8a9a3c88f97deec890
+      Hash: 370dc8e5953af7613330145a5fa3a556
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SoundManager

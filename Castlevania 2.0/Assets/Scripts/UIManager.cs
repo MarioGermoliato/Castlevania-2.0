@@ -11,6 +11,13 @@ public class UIManager : MonoBehaviour
     public Text timeTxt;  
     public Text heartsTxt;
     public Text lifesTxt;
+    public GameObject[] currentItem;
+
+   /* [Header("Item Icons")]
+    public Image daggerIcon;
+    public Image crucifixIcon;
+    public Image axeIcon;
+    public Image waterIcon;*/
 
     // Start is called before the first frame update
     void Start()
@@ -22,5 +29,15 @@ public class UIManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void ShowIcon(int itemIconIdex)
+    {
+        foreach (var item in currentItem)
+        {
+            item.SetActive(false);
+            currentItem[itemIconIdex].SetActive(true);
+        }   
+
     }
 }

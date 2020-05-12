@@ -20,6 +20,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private float jumpSpeed;    
     public bool stop;
+    public float xJumping;
+    public LayerMask floorLayer;
 
     [SerializeField]
     private BoxCollider2D playerHitBox;
@@ -35,11 +37,20 @@ public class PlayerController : MonoBehaviour
     private bool isAttacking;
     [SerializeField]
     private Transform hand;
+
+    [Header("Itens")]
+    public bool[] itemUp;
+    public GameObject dagger;
+
+
+    [Header("ItensVel")]
+    [SerializeField]
+    private Vector2 daggerForce;
       
     [SerializeField]
     private int faseTime;
 
-    public bool upgradeCatch;
+    public bool cantMove;
 
 
 
@@ -63,69 +74,93 @@ public class PlayerController : MonoBehaviour
     {
         MoveCharacter();
         Crouch();
-        Attack();        
+        Attack();       
+        
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            ThrowDagger();
+        }
     }
     void FixedUpdate()
-    {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.02f);
-    }
+    {               
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.02f, floorLayer);
+    }    
 
     void MoveCharacter()
-    {        
-            float x = Input.GetAxis("Horizontal");   
-        if (stop == true)
+    {
+        if (cantMove == false)
         {
-            x = 0;
+            float x = Input.GetAxisRaw("Horizontal");
+            
+
+
+            if (isGrounded == true)
+            {
+                xJumping = x;
+            }
+
+            if (stop == true)
+            {
+                x = 0;
+                xJumping = 0;
+            }
+
+            if (isAttacking == true && isGrounded == true)
+            {
+                x = 0;
+                xJumping = 0;
+            }
+
+            float speedY = playerRB.velocity.y;
+            playerRB.velocity = new Vector2(xJumping * velocityPlayer, speedY);
+            playerAnimator.SetFloat("MoveSpeed", Mathf.Abs(x));
+            playerAnimator.SetBool("isGrounded", isGrounded);
+
+
+            if (Input.GetButtonDown("Jump") && isGrounded == true)
+            {
+                playerRB.AddForce(Vector2.up * jumpSpeed, ForceMode2D.Impulse);
+            }
+
+            if (x > 0.05f)
+                transform.rotation = Quaternion.Euler(0, 180, 0);
+            else if (x < -0.05f)
+                transform.rotation = Quaternion.Euler(0, 0, 0);
         }
-
-        if (isAttacking == true && isGrounded == true)
-        {
-            x = 0;
-        }
-
-        float speedY = playerRB.velocity.y;       
-        playerRB.velocity = new Vector2(x * velocityPlayer, speedY);        
-        playerAnimator.SetFloat("MoveSpeed", Mathf.Abs(x));
-        playerAnimator.SetBool("isGrounded", isGrounded);
-        
-
-        if (Input.GetButtonDown("Jump") && isGrounded == true)
-        {            
-            playerRB.AddForce(Vector2.up * jumpSpeed, ForceMode2D.Impulse);
-        }
-
-        if (x > 0.05f)
-            transform.rotation = Quaternion.Euler(0, 180, 0);
-        else if (x < -0.05f)
-            transform.rotation = Quaternion.Euler(0, 0, 0);
 
     }
 
     void Crouch()
     {
-        if (Input.GetKey(KeyCode.S) && isGrounded == true)
+        if (cantMove == false)
         {
-            isCrouched = true;
-            playerRB.velocity = new Vector2(0, playerRB.velocity.y);
+            if (Input.GetKey(KeyCode.S) && isGrounded == true)
+            {
+                isCrouched = true;
+                playerRB.velocity = new Vector2(0, playerRB.velocity.y);
+            }
+            else if (Input.GetKeyUp(KeyCode.S))
+            {
+                isCrouched = false;
+            }
+            playerAnimator.SetBool("isCrouched", isCrouched);
         }
-        else if(Input.GetKeyUp(KeyCode.S))
-        {
-            isCrouched = false;
-        }
-        playerAnimator.SetBool("isCrouched", isCrouched);
     }
 
     void Attack()
     {
-        if(Input.GetButtonDown("Fire1") /*&& isAttacking == false*/)
+        if (cantMove == false)
         {
-            isAttacking = true;
-            playerAnimator.SetTrigger("isAttacking");
-           
+            if (Input.GetButtonDown("Fire1") /*&& isAttacking == false*/)
+            {
+                isAttacking = true;
+                playerAnimator.SetTrigger("isAttacking");
+
+            }
         }
 
 
-    }
+    }  
 
     void EndAttack()
     {
@@ -134,8 +169,18 @@ public class PlayerController : MonoBehaviour
     void EndStop()
     {
         stop = false;
+        cantMove = false;
     }
-        
+    public void WeaponUp(int ItemId)
+    {
+        int i = 0;
+        foreach (var item in itemUp)
+        {            
+            itemUp[i] = false;
+            i++;
+        }
+        itemUp[ItemId] = true;
+    }
 
     private void ToScore(int nPoints)
     {
@@ -148,48 +193,12 @@ public class PlayerController : MonoBehaviour
         GlobalStats.hearts += nHearts;
         _UIManager.heartsTxt.text = "-" + GlobalStats.hearts.ToString();
     }    
-
-   /* private void OnTriggerEnter2D(Collider2D collision)
-    {   
-        
-            if (collision.CompareTag("PowerUp"))
-            {
-                GlobalStats.powerUps += 1;
-                playerAnimator.SetInteger("powerUp", GlobalStats.powerUps);
-                Debug.Log("Coletou1");
-                playerAnimator.SetTrigger("powerUpCollect");
-                _SoundManager.audioSource.PlayOneShot(_SoundManager.collectUpgrade);
-                Debug.Log("Coletou2");
-                stop = true;
-                Destroy(collision.gameObject);
-            }
-            else if (collision.CompareTag("SmallHeart"))
-            {
-                CollectHearts(1);
-                Destroy(collision.gameObject);
-            }
-            else if (collision.CompareTag("BigHeart"))
-            {
-                CollectHearts(5);
-                Destroy(collision.gameObject);
-            }
-            else if (collision.CompareTag("RedBag"))
-            {
-                ToScore(100);
-                Destroy(collision.gameObject);
-            }
-            else if (collision.CompareTag("PurpleBag"))
-            {
-                ToScore(300);
-                Destroy(collision.gameObject);
-            }
-            else if (collision.CompareTag("WhiteBag"))
-            {
-                ToScore(700);
-                Destroy(collision.gameObject);
-            }
-        
-    }*/
+    
+    public void ThrowDagger()
+    {
+        GameObject Dagger = Instantiate(dagger, hand.position, hand.rotation);
+        Dagger.GetComponent<Rigidbody2D>().AddForce(transform.TransformDirection(daggerForce), ForceMode2D.Impulse);
+    }
 
     public void PlayAttackFx()
     {
@@ -197,8 +206,7 @@ public class PlayerController : MonoBehaviour
     }
 
     public void GetUpgrade()
-    {      
-            upgradeCatch = false;
+    {
             GlobalStats.powerUps += 1;
             playerAnimator.SetInteger("powerUp", GlobalStats.powerUps);
             Debug.Log("Coletou1");
@@ -206,7 +214,11 @@ public class PlayerController : MonoBehaviour
             _SoundManager.audioSource.PlayOneShot(_SoundManager.collectUpgrade);
             Debug.Log("Coletou2");
             stop = true;
-            Debug.Log(GlobalStats.powerUps);
+            Debug.Log(GlobalStats.powerUps);        
+    }
+
+    public void GlobalUpgradeCounter()
+    {
         
     }
 
