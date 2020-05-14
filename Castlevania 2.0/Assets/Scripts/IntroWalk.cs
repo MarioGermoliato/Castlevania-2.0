@@ -37,6 +37,10 @@ public class IntroWalk : MonoBehaviour
             StartCoroutine("TimeToWaitStart");
 
         }
+        if (collision.CompareTag("Castle"))
+        {
+            SceneControll.ChangeScene("Castle");
+        }
     }
 
     IEnumerator TimeToWaitStart()
@@ -44,4 +48,5 @@ public class IntroWalk : MonoBehaviour
         yield return new WaitForSeconds(timeToChange);
         SceneControll.ChangeScene("Entrance");
     }
+  
 }

@@ -41,6 +41,7 @@ public class PlayerController : MonoBehaviour
     [Header("Itens")]
     public bool[] itemUp;
     public GameObject dagger;
+    public bool isThrowing;
 
 
     [Header("ItensVel")]
@@ -74,12 +75,9 @@ public class PlayerController : MonoBehaviour
     {
         MoveCharacter();
         Crouch();
-        Attack();       
-        
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            ThrowDagger();
-        }
+        Attack();
+        ThrowDagger();
+                
     }
     void FixedUpdate()
     {               
@@ -92,7 +90,11 @@ public class PlayerController : MonoBehaviour
         {
             float x = Input.GetAxisRaw("Horizontal");
             
-
+            if (isThrowing == true && isGrounded == true)
+            {
+                x = 0;
+                xJumping = 0;
+            }
 
             if (isGrounded == true)
             {
@@ -196,6 +198,22 @@ public class PlayerController : MonoBehaviour
     
     public void ThrowDagger()
     {
+        if (Input.GetKeyDown(KeyCode.Q) && cantMove == false && itemUp[0] && GlobalStats.hearts > 0 && isThrowing == false)
+        {
+            isThrowing = true;
+            playerAnimator.SetTrigger("ThrowingItem");
+            
+            GlobalStats.hearts--;
+            _UIManager.heartsTxt.text = "-" + GlobalStats.hearts.ToString();
+
+            StartCoroutine("DelayItem");
+        }
+       
+    }
+
+    public void SetThrowAnimation()
+    {
+        _SoundManager.audioSource.PlayOneShot(_SoundManager.throwDaager);
         GameObject Dagger = Instantiate(dagger, hand.position, hand.rotation);
         Dagger.GetComponent<Rigidbody2D>().AddForce(transform.TransformDirection(daggerForce), ForceMode2D.Impulse);
     }
@@ -220,6 +238,12 @@ public class PlayerController : MonoBehaviour
     public void GlobalUpgradeCounter()
     {
         
+    }
+
+    IEnumerator DelayItem()
+    {
+        yield return new WaitForSeconds(0.5f);
+        isThrowing = false;            
     }
 
     IEnumerator DelayAttack()

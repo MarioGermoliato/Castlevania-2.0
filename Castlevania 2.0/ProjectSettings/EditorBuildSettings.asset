@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Entrance.unity
     guid: e59abfb2f0342de458511aa0a02876d9
+  - enabled: 1
+    path: Assets/Scenes/Castle.unity
+    guid: 498153e779a107849bdf9b7a144dc861
   m_configObjects: {}

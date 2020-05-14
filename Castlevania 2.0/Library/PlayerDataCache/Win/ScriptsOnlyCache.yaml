@@ -3,7 +3,9 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CameraController
     - CollectableItens
+    - DestroyInvisible
     - DestructibleItens
+    - EntranceTransition
     - GameController
     - IntroWalk
     - PlayerController
@@ -20,8 +22,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -36,6 +40,43 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
+    Assets/Scenes/Castle.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11172}
+    - Class: 114
+      Script: {instanceID: 11384}
+    - Class: 114
+      Script: {instanceID: 11802}
+    - Class: 114
+      Script: {instanceID: 12732}
+    - Class: 114
+      Script: {instanceID: 13116}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/Entrance.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -50,6 +91,8 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 50
+      Script: {instanceID: 0}
+    - Class: 58
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
@@ -78,19 +121,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11444}
     - Class: 114
+      Script: {instanceID: 11708}
+    - Class: 114
       Script: {instanceID: 11802}
     - Class: 114
       Script: {instanceID: 11960}
     - Class: 114
       Script: {instanceID: 12402}
     - Class: 114
-      Script: {instanceID: 12730}
+      Script: {instanceID: 12542}
     - Class: 114
-      Script: {instanceID: 12768}
+      Script: {instanceID: 12732}
     - Class: 114
-      Script: {instanceID: 13114}
+      Script: {instanceID: 12770}
     - Class: 114
-      Script: {instanceID: 13134}
+      Script: {instanceID: 13116}
+    - Class: 114
+      Script: {instanceID: 13136}
+    - Class: 114
+      Script: {instanceID: 19750}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -151,7 +200,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11708}
     - Class: 114
-      Script: {instanceID: 12730}
+      Script: {instanceID: 12732}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -221,9 +270,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12218}
     - Class: 114
-      Script: {instanceID: 12730}
+      Script: {instanceID: 12732}
     - Class: 114
-      Script: {instanceID: 13114}
+      Script: {instanceID: 13116}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -267,7 +316,7 @@ ScriptsOnlyBuild:
     className: TMP_Dropdown
   - hash:
       serializedVersion: 2
-      Hash: 65548579e417f3f7c0108d1f4e98353b
+      Hash: a8dbef4a9825337fbd30322300319a24
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIManager
@@ -339,7 +388,7 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 11a9e955a089da1b68730da90ccc43d5
+      Hash: 150844dddbae88ea7d61501f9ad2b629
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DestructibleItens
@@ -573,6 +622,12 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DestroyInvisible
+  - hash:
+      serializedVersion: 2
       Hash: 3b760e6526e13f7504f59e210145899a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -597,7 +652,7 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: 6b7fa304770318c6207e61a3ef741b31
+      Hash: f6617c48ba2ad9ac1cd9e02e39d8b605
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -693,7 +748,7 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
-      Hash: 370dc8e5953af7613330145a5fa3a556
+      Hash: ab75fd9f08881a818f05bcc20f68142d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SoundManager
@@ -715,10 +770,17 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d9f7dc7113e7fe8adcf3b659852caf37
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EntranceTransition
   platform: 5
   scenePathNames:
   - Assets/Scenes/Title.unity
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/PreEntrance.unity
   - Assets/Scenes/Entrance.unity
+  - Assets/Scenes/Castle.unity
   playerPath: C:/Users/mario/OneDrive/Documentos/Teste Castlevania/Castlevania 2.0.exe

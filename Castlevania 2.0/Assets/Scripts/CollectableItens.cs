@@ -75,6 +75,7 @@ public class CollectableItens : MonoBehaviour
             {
                 _UIManager.ShowIcon(0);
                 _PlayerController.WeaponUp(0);
+                _SoundManager.audioSource.PlayOneShot(_SoundManager.daggerCollect);
                 Destroy(this.gameObject);
             }
         }

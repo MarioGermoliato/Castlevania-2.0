@@ -9,6 +9,8 @@ public class SoundManager : MonoBehaviour
     public AudioClip attackWhip;
     public AudioClip destroyTorch;
     public AudioClip heartCollect;
+    public AudioClip daggerCollect;
+    public AudioClip throwDaager;
 
     // Start is called before the first frame update
     void Start()

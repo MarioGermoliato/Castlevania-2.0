@@ -14,6 +14,7 @@ TagManager:
   - Whip
   - DaggerCollect
   - Dagger
+  - Castle
   layers:
   - Default
   - TransparentFX

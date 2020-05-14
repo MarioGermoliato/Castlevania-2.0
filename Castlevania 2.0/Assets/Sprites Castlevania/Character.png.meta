@@ -2804,12 +2804,12 @@ TextureImporter:
       name: Character_139
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 420
         width: 24
         height: 30
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.375, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2826,10 +2826,10 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 26
-        y: 421
+        y: 420
         width: 16
         height: 30
-      alignment: 7
+      alignment: 9
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -2849,9 +2849,9 @@ TextureImporter:
         x: 45
         y: 420
         width: 22
-        height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 30
+      alignment: 9
+      pivot: {x: 0.6365, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2934,8 +2934,8 @@ TextureImporter:
         y: 427
         width: 24
         height: 23
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.333, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2976,8 +2976,8 @@ TextureImporter:
         y: 427
         width: 22
         height: 22
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.6365, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

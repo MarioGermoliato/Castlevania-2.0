@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3244576762254042274}
   - component: {fileID: 8967134173931449571}
   - component: {fileID: 3061037026077926759}
+  - component: {fileID: 6953903949808547568}
   m_Layer: 0
   m_Name: DaggerWeapon
   m_TagString: Dagger
@@ -131,3 +132,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &6953903949808547568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3497494980322497928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9864dead43a49b43a32e46df3d07df5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
