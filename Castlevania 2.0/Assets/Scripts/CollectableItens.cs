@@ -31,7 +31,7 @@ public class CollectableItens : MonoBehaviour
         private void ToScore(int nPoints)
     {
         GlobalStats.score += nPoints;
-        _UIManager.scoreTxt.text = "SCORE-" + GlobalStats.score.ToString();
+        _UIManager.scoreTxt.text = "SCORE-" + GlobalStats.score.ToString();      
     }
 
    

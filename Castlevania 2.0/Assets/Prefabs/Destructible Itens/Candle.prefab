@@ -148,3 +148,4 @@ MonoBehaviour:
     type: 3}
   bigHeart: {fileID: 4566387584170743971, guid: 2a3278bda8fab4241b94d8041731f898,
     type: 3}
+  dagger: {fileID: 2703753430286863172, guid: ad0cafec1039e4e4fbd9473752d447b1, type: 3}

@@ -38,8 +38,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private Transform hand;
 
-    [Header("Itens")]
-    public bool[] itemUp;
+    [Header("Itens")]    
     public GameObject dagger;
     public bool isThrowing;
 
@@ -48,9 +47,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private Vector2 daggerForce;
       
-    [SerializeField]
-    private int faseTime;
-
+    
     public bool cantMove;
 
 
@@ -176,12 +173,12 @@ public class PlayerController : MonoBehaviour
     public void WeaponUp(int ItemId)
     {
         int i = 0;
-        foreach (var item in itemUp)
-        {            
-            itemUp[i] = false;
+        foreach (var item in _UIManager.itemUp)
+        {
+            _UIManager.itemUp[i] = false;
             i++;
         }
-        itemUp[ItemId] = true;
+        _UIManager.itemUp[ItemId] = true;
     }
 
     private void ToScore(int nPoints)
@@ -198,7 +195,7 @@ public class PlayerController : MonoBehaviour
     
     public void ThrowDagger()
     {
-        if (Input.GetKeyDown(KeyCode.Q) && cantMove == false && itemUp[0] && GlobalStats.hearts > 0 && isThrowing == false)
+        if (Input.GetKeyDown(KeyCode.Q) && cantMove == false && _UIManager.itemUp[0] && GlobalStats.hearts > 0 && isThrowing == false)
         {
             isThrowing = true;
             playerAnimator.SetTrigger("ThrowingItem");
@@ -255,8 +252,8 @@ public class PlayerController : MonoBehaviour
     IEnumerator TimeCounter()
     {
         yield return new WaitForSeconds(1);
-        faseTime -= 1;
-        _UIManager.timeTxt.text = "TIME 0" + faseTime;
+        GlobalStats.faseTime -= 1;
+        _UIManager.timeTxt.text = "TIME 0" + GlobalStats.faseTime;
         StartCoroutine("TimeCounter");
     }
 }

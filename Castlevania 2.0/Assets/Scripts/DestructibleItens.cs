@@ -5,9 +5,11 @@ using UnityEngine;
 public enum ItensDrop { LittleHeart, BigHeart, Upgrade, RedBag, PurpleBag, WhiteBag, Dagger }
 public class DestructibleItens : MonoBehaviour
 {
+    public enum ItemOrigin { Candle, Torch}
 
     private SoundManager _SoundManager;
     public ItensDrop dropItem;
+    public ItemOrigin originItem;
 
     [SerializeField]
     private GameObject powerUp;
@@ -31,29 +33,63 @@ public class DestructibleItens : MonoBehaviour
 
     public void DropItem()
     {
-        if (dropItem == ItensDrop.Upgrade)
+        // caso seja tocha
+        if (originItem == ItemOrigin.Torch)
         {
-            if (GlobalStats.powerUps < 2)
+            if (dropItem == ItensDrop.Upgrade)
             {
-                Instantiate(powerUp, new Vector3(this.transform.position.x, this.transform.position.y + 1f, this.transform.position.z), this.transform.localRotation);
+                if (GlobalStats.powerUps < 2)
+                {
+                    Instantiate(powerUp, new Vector3(this.transform.position.x, this.transform.position.y + 1f, this.transform.position.z), this.transform.localRotation);
+                }
+                else
+                {
+                    Instantiate(bigHeart, new Vector3(this.transform.position.x, this.transform.position.y + 1f, this.transform.position.z), this.transform.localRotation);
+                }
             }
-            else
+            else if (dropItem == ItensDrop.BigHeart)
             {
                 Instantiate(bigHeart, new Vector3(this.transform.position.x, this.transform.position.y + 1f, this.transform.position.z), this.transform.localRotation);
             }
+            else if (dropItem == ItensDrop.LittleHeart)
+            {
+                Instantiate(smallHeart, new Vector3(this.transform.position.x, this.transform.position.y + 1f, this.transform.position.z), this.transform.localRotation);
+            }
+            else if (dropItem == ItensDrop.Dagger)
+            {
+                Instantiate(dagger, new Vector3(this.transform.position.x, this.transform.position.y + 1f, this.transform.position.z), dagger.transform.rotation);
+            }
         }
-        else if (dropItem == ItensDrop.BigHeart)
+        // caso seja vela
+        else if (originItem == ItemOrigin.Candle)
         {
-            Instantiate(bigHeart, new Vector3(this.transform.position.x, this.transform.position.y +1f, this.transform.position.z), this.transform.localRotation);
+            if (dropItem == ItensDrop.Upgrade)
+            {
+                if (GlobalStats.powerUps < 2)
+                {
+                    Instantiate(powerUp, new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z), this.transform.localRotation);
+                }
+                else
+                {
+                    Instantiate(bigHeart, new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z), this.transform.localRotation);
+                }
+            }
+            else if (dropItem == ItensDrop.BigHeart)
+            {
+                Instantiate(bigHeart, new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z), this.transform.localRotation);
+            }
+            else if (dropItem == ItensDrop.LittleHeart)
+            {
+                Instantiate(smallHeart, new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z), this.transform.localRotation);
+            }
+            else if (dropItem == ItensDrop.Dagger)
+            {
+                Instantiate(dagger, new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z), dagger.transform.rotation);
+            }
         }
-        else if (dropItem == ItensDrop.LittleHeart)
-        {
-            Instantiate(smallHeart, new Vector3 (this.transform.position.x, this.transform.position.y +1f, this.transform.position.z), this.transform.localRotation);
-        }
-        else if (dropItem == ItensDrop.Dagger)
-        {
-            Instantiate(dagger, new Vector3(this.transform.position.x, this.transform.position.y + 1f, this.transform.position.z), dagger.transform.rotation);
-        }
+
+
+
         Destroy(this.gameObject);
 
     }

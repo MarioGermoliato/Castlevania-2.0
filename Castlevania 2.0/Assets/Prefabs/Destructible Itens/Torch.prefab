@@ -143,8 +143,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dropItem: 2
+  originItem: 1
   powerUp: {fileID: 184708958537177751, guid: 1c0d0728e99d08648ad6954e8bb542db, type: 3}
   smallHeart: {fileID: 5574233204766221036, guid: 6c7e98732f67d8e4caea4b2db8ac7f7a,
     type: 3}
   bigHeart: {fileID: 4566387584170743971, guid: 2a3278bda8fab4241b94d8041731f898,
     type: 3}
+  dagger: {fileID: 2703753430286863172, guid: ad0cafec1039e4e4fbd9473752d447b1, type: 3}

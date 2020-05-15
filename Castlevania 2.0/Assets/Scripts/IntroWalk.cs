@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class IntroWalk : MonoBehaviour
 {
+    
     public float velocityWalk;
     public Rigidbody2D introRB;
     public SpriteRenderer characterLooking;
@@ -13,7 +14,7 @@ public class IntroWalk : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+    
     }
 
     // Update is called once per frame
@@ -39,7 +40,7 @@ public class IntroWalk : MonoBehaviour
         }
         if (collision.CompareTag("Castle"))
         {
-            SceneControll.ChangeScene("Castle");
+            SceneControll.ChangeScene("Castle");           
         }
     }
 

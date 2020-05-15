@@ -13,11 +13,14 @@ public class UIManager : MonoBehaviour
     public Text lifesTxt;
     public GameObject[] currentItem;
 
-   /* [Header("Item Icons")]
-    public Image daggerIcon;
-    public Image crucifixIcon;
-    public Image axeIcon;
-    public Image waterIcon;*/
+    [Header("Weapon Control")]
+    public bool[] itemUp;
+
+    /* [Header("Item Icons")]
+     public Image daggerIcon;
+     public Image crucifixIcon;
+     public Image axeIcon;
+     public Image waterIcon;*/
 
     // Start is called before the first frame update
     void Start()
@@ -40,4 +43,5 @@ public class UIManager : MonoBehaviour
         }   
 
     }
+        
 }

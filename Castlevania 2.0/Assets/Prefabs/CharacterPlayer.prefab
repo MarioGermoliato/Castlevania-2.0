@@ -265,6 +265,10 @@ MonoBehaviour:
   isCrouched: 0
   groundCheck: {fileID: 4788546850403802296}
   isAttacking: 0
-  hand: {fileID: 0}
+  hand: {fileID: 1038205494805475726}
+  itemUp: 00000000
+  dagger: {fileID: 3497494980322497928, guid: 7cef7a5b0a5420d438605eede35aa5b1, type: 3}
+  isThrowing: 0
+  daggerForce: {x: -10, y: 0}
   faseTime: 300
   cantMove: 0
