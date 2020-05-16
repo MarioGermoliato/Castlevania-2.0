@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class ZombieController : Enemy
 {
-    [SerializeField]
-    private float velMov;
+    private UIManager _UIManager;
 
     [SerializeField]
-    private int direction;
+    private float velMov;
+       
 
     [SerializeField]
     private Rigidbody2D zombieRB;
@@ -18,21 +18,45 @@ public class ZombieController : Enemy
     {
         zombieRB = GetComponent<Rigidbody2D>();
         health = 1;
+        _UIManager = FindObjectOfType(typeof(UIManager)) as UIManager;
     }
 
     // Update is called once per frame
     void Update()
     {
         ZombieWalk();
+        Defeat(100);
     }
 
     public void ZombieWalk()
     {
         zombieRB.velocity = new Vector2(velMov * direction, zombieRB.velocity.y);
     }
-
-    public  ZombieController(int _direction)
+    public override void Defeat(int points)
     {
-        direction = _direction;
+        
+
+        if (health <= 0)
+        {
+            GlobalStats.score += points;
+            _UIManager.scoreTxt.text = "SCORE-00" + GlobalStats.score.ToString();
+            Destroy(this.gameObject);
+        }
+
     }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Whip")) 
+        {
+            GetDamage(2);
+        }
+        else if (collision.CompareTag("Weapon"))
+        {
+            GetDamage(2);
+            Destroy(collision.gameObject);
+        }
+    }    
+
+
 }

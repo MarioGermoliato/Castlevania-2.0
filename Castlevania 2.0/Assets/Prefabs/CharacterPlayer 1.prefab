@@ -43,7 +43,6 @@ GameObject:
   - component: {fileID: 309482891622962548}
   - component: {fileID: 309482891622962507}
   - component: {fileID: 309482891622962506}
-  - component: {fileID: 5346664314395385335}
   - component: {fileID: 734087107308944794}
   m_Layer: 0
   m_Name: CharacterPlayer 1
@@ -185,32 +184,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!61 &5346664314395385335
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 309482891622962504}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.74661434}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 0.8, y: 1.5}
-    newSize: {x: 0.8, y: 1.5}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.8210306, y: 1.5067713}
-  m_EdgeRadius: 0
 --- !u!114 &734087107308944794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,12 +210,12 @@ MonoBehaviour:
   groundCheck: {fileID: 138783805546562714}
   isAttacking: 0
   hand: {fileID: 5616314989757426092}
-  itemUp: 00000000
   dagger: {fileID: 3497494980322497928, guid: 7cef7a5b0a5420d438605eede35aa5b1, type: 3}
   isThrowing: 0
   daggerForce: {x: -10, y: 0}
-  faseTime: 300
+  playerLife: 0
   cantMove: 0
+  dontWalkPlease: 0
 --- !u!1 &4669138864624332988
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public int health;    
-    protected UIManager _UIManager;    
+    public int health;
+    
+    public int direction;
     
 
     // Start is called before the first frame update
     void Start()
     {
-        _UIManager = FindObjectOfType(typeof(UIManager)) as UIManager;  
+       
     }
 
     // Update is called once per frame
@@ -22,20 +23,24 @@ public class Enemy : MonoBehaviour
 
   public void GetDamage(int damage)
     {
-        health -= damage;
+        health -= damage;        
     }
 
-    public void Defeat(int points)
+    public virtual void Defeat(int points)
     {
         if (health <= 0)
-        {
-            ToScore(points);
+        {            
             Destroy(this.gameObject);
         }
     }
     public void ToScore(int nPoints)
+    {      
+
+         
+    }
+
+    public void DirectionSet(int thisDirection)
     {
-        GlobalStats.score += nPoints;
-        _UIManager.scoreTxt.text = "SCORE-" + GlobalStats.score.ToString();
+        direction = thisDirection;
     }
 }

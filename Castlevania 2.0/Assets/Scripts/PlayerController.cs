@@ -53,6 +53,8 @@ public class PlayerController : MonoBehaviour
     
     public bool cantMove;
 
+    public bool dontWalkPlease;
+
 
 
     // Start is called before the first frame update
@@ -76,7 +78,10 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        MoveCharacter();
+        if (dontWalkPlease == false)
+        {
+            MoveCharacter();
+        }
         Crouch();
         Attack();
         ThrowDagger();               
@@ -247,10 +252,10 @@ public class PlayerController : MonoBehaviour
     {
             GlobalStats.powerUps += 1;
             playerAnimator.SetInteger("powerUp", GlobalStats.powerUps);
-            Debug.Log("Coletou1");
+           // Debug.Log("Coletou1");
             playerAnimator.SetTrigger("powerUpCollect");
             _SoundManager.audioSource.PlayOneShot(_SoundManager.collectUpgrade);
-            Debug.Log("Coletou2");
+           // Debug.Log("Coletou2");
             stop = true;
             Debug.Log(GlobalStats.powerUps);        
     }
@@ -270,6 +275,15 @@ public class PlayerController : MonoBehaviour
         }
     }
     
+    public void DontWalkBegin()
+    {
+        dontWalkPlease = true;
+    }
+
+    public void DontWalkEnd()
+    {
+        dontWalkPlease = false;
+    }
 
     IEnumerator DelayItem()
     {

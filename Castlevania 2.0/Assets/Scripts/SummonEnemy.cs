@@ -6,23 +6,23 @@ public class SummonEnemy : MonoBehaviour
 {
     [Header("Locations of respawl")]
     [SerializeField]
-    private Transform[] respawlLocations;
-    private enum typeMonster { Zombie, Bat}
-
-    private typeMonster CurrentMonster;
-
+    private Transform[] respawlLocations;          
     [SerializeField]
     private bool playerOnTheTrigger;
 
     [SerializeField]
-    private GameObject zombiePrefab;
+    private float timeToRespawl;
+    
+    public Enemy[] enemyPrefab;
+
+   
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
             playerOnTheTrigger = true;
-            Debug.Log("MonsterHunter");
+            StartCoroutine("RespawlDelay");            
         }
 
     }
@@ -31,8 +31,7 @@ public class SummonEnemy : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            playerOnTheTrigger = false;
-            Debug.Log("DebocharLegal");
+            playerOnTheTrigger = false;            
         }
        
         
@@ -42,9 +41,33 @@ public class SummonEnemy : MonoBehaviour
     {
         if (playerOnTheTrigger == true)
         {
+            int i = Random.Range(0, respawlLocations.Length);
+            int b = Random.Range(0, enemyPrefab.Length);
 
+           Enemy currentEnemy = Instantiate(enemyPrefab[b], new Vector3(respawlLocations[i].position.x, respawlLocations[i].position.y, respawlLocations[i].position.z), respawlLocations[i].rotation);
+
+            if(i % 2 == 0)
+            {
+                currentEnemy.direction = 1;
+            }
+            else
+            {
+                currentEnemy.direction = -1;
+            }
+            
+            
         }
     }
 
+    IEnumerator RespawlDelay()
+    {
+        yield return new WaitForSeconds(timeToRespawl);
+        RespawlEnemy();
+
+        if(playerOnTheTrigger == true)
+        {
+            StartCoroutine("RespawlDelay");
+        }
+    }
     
 }
