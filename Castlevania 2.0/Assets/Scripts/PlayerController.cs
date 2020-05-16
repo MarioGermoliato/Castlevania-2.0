@@ -46,6 +46,9 @@ public class PlayerController : MonoBehaviour
     [Header("ItensVel")]
     [SerializeField]
     private Vector2 daggerForce;
+
+    [Header("Life")]
+    public int playerLife;
       
     
     public bool cantMove;
@@ -65,6 +68,9 @@ public class PlayerController : MonoBehaviour
         playerHitBox = GetComponent<BoxCollider2D>();
 
         StartCoroutine("TimeCounter");
+
+        Debug.Log("numero upgrades " + GlobalStats.powerUps);
+        playerAnimator.SetInteger("powerUp", GlobalStats.powerUps);
     }
 
     // Update is called once per frame
@@ -73,60 +79,77 @@ public class PlayerController : MonoBehaviour
         MoveCharacter();
         Crouch();
         Attack();
-        ThrowDagger();
+        ThrowDagger();               
                 
     }
     void FixedUpdate()
     {               
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.02f, floorLayer);
-    }    
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Zombie"))
+        {
+            TakeDamage(2);
+            UpNumberOfHearts();
+            Destroy(collision.gameObject);
+        }
+    }
+   
+
+    void TakeDamage(int Damage)
+    {
+        playerLife -= Damage;
+    }
 
     void MoveCharacter()
-    {
-        if (cantMove == false)
-        {
-            float x = Input.GetAxisRaw("Horizontal");
-            
-            if (isThrowing == true && isGrounded == true)
+    {       
+            if (cantMove == false)
             {
-                x = 0;
-                xJumping = 0;
+
+                float x = Input.GetAxisRaw("Horizontal");
+
+                if (isThrowing == true && isGrounded == true)
+                {
+                    x = 0;
+                    xJumping = 0;
+                }
+
+                if (isGrounded == true)
+                {
+                    xJumping = x;
+                }
+
+                if (stop == true)
+                {
+                    x = 0;
+                    xJumping = 0;
+                }
+
+                if (isAttacking == true && isGrounded == true)
+                {
+                    x = 0;
+                    xJumping = 0;
+                }
+
+                float speedY = playerRB.velocity.y;
+                playerRB.velocity = new Vector2(xJumping * velocityPlayer, speedY);
+                playerAnimator.SetFloat("MoveSpeed", Mathf.Abs(x));
+                playerAnimator.SetBool("isGrounded", isGrounded);
+
+
+                if (Input.GetButtonDown("Jump") && isGrounded == true)
+                {
+                    playerRB.AddForce(Vector2.up * jumpSpeed, ForceMode2D.Impulse);
+                }
+
+                if (x > 0.05f)
+                    transform.rotation = Quaternion.Euler(0, 180, 0);
+                else if (x < -0.05f)
+                    transform.rotation = Quaternion.Euler(0, 0, 0);
             }
-
-            if (isGrounded == true)
-            {
-                xJumping = x;
-            }
-
-            if (stop == true)
-            {
-                x = 0;
-                xJumping = 0;
-            }
-
-            if (isAttacking == true && isGrounded == true)
-            {
-                x = 0;
-                xJumping = 0;
-            }
-
-            float speedY = playerRB.velocity.y;
-            playerRB.velocity = new Vector2(xJumping * velocityPlayer, speedY);
-            playerAnimator.SetFloat("MoveSpeed", Mathf.Abs(x));
-            playerAnimator.SetBool("isGrounded", isGrounded);
-
-
-            if (Input.GetButtonDown("Jump") && isGrounded == true)
-            {
-                playerRB.AddForce(Vector2.up * jumpSpeed, ForceMode2D.Impulse);
-            }
-
-            if (x > 0.05f)
-                transform.rotation = Quaternion.Euler(0, 180, 0);
-            else if (x < -0.05f)
-                transform.rotation = Quaternion.Euler(0, 0, 0);
-        }
-
+                    
     }
 
     void Crouch()
@@ -232,10 +255,21 @@ public class PlayerController : MonoBehaviour
             Debug.Log(GlobalStats.powerUps);        
     }
 
-    public void GlobalUpgradeCounter()
+    public void UpNumberOfHearts()
     {
-        
+       for (int i = 0; i < _UIManager.playerLifesIcons.Length; i++)
+        {
+            if (i < playerLife)
+            {
+                _UIManager.playerLifesIcons[i].sprite = _UIManager.fullLifePlayer;
+            }
+            else
+            {
+                _UIManager.playerLifesIcons[i].sprite = _UIManager.emptyLife;
+            }
+        }
     }
+    
 
     IEnumerator DelayItem()
     {

@@ -13,6 +13,13 @@ public class UIManager : MonoBehaviour
     public Text lifesTxt;
     public GameObject[] currentItem;
 
+    [Header("Lifes")]
+    public Image[] playerLifesIcons;
+    public Image[] enemyLifesIcons;
+    public Sprite fullLifePlayer;
+    public Sprite fullLifeEnemy;
+    public Sprite emptyLife;
+
     [Header("Weapon Control")]
     public bool[] itemUp;
 

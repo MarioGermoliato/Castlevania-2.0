@@ -15,6 +15,7 @@ TagManager:
   - DaggerCollect
   - Dagger
   - Castle
+  - Zombie
   layers:
   - Default
   - TransparentFX
