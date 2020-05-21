@@ -45,15 +45,15 @@ public class PlayerController : MonoBehaviour
 
     [Header("ItensVel")]
     [SerializeField]
-    private Vector2 daggerForce;
-
-    [Header("Life")]
-    public int playerLife;
+    private Vector2 daggerForce;   
       
     
     public bool cantMove;
 
     public bool dontWalkPlease;
+
+    //public bool damageUp;
+    //public int animatorDamageControl;
 
 
 
@@ -77,19 +77,31 @@ public class PlayerController : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {       
+
         if (dontWalkPlease == false)
         {
             MoveCharacter();
         }
         Crouch();
         Attack();
-        ThrowDagger();               
-                
+        ThrowDagger();         
+                       
     }
     void FixedUpdate()
     {               
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.02f, floorLayer);
+
+        /*if (isGrounded == true)
+        {
+            animatorDamageControl = 0;
+            playerAnimator.SetFloat("AnimatorDamageControl", animatorDamageControl);
+        }
+        else
+        {
+            animatorDamageControl = 1;
+            playerAnimator.SetFloat("AnimatorDamageControl", animatorDamageControl);
+        }*/
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -97,6 +109,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Zombie"))
         {
             TakeDamage(2);
+            //GetHurt();
             UpNumberOfHearts();
             Destroy(collision.gameObject);
         }
@@ -105,8 +118,22 @@ public class PlayerController : MonoBehaviour
 
     void TakeDamage(int Damage)
     {
-        playerLife -= Damage;
+        GlobalStats.playerLife -= Damage;
     }
+
+    /*void GetHurt()
+    {
+        damageUp = true;
+        playerAnimator.SetBool("getHurt", damageUp);
+        playerRB.AddForce(new Vector2(-3,8), ForceMode2D.Impulse);
+        Debug.Log("Penis");
+    }
+
+    void EndHurt()
+    {
+        damageUp = false;
+        Debug.Log("caralhinho");
+    }*/
 
     void MoveCharacter()
     {       
@@ -139,6 +166,15 @@ public class PlayerController : MonoBehaviour
                 }
 
                 float speedY = playerRB.velocity.y;
+            /*if (damageUp == true)
+        {
+            playerRB.velocity = new Vector2(-2 * velocityPlayer, speedY);
+        }
+            else
+        {
+            playerRB.velocity = new Vector2(xJumping * velocityPlayer, speedY);
+        }*/
+
                 playerRB.velocity = new Vector2(xJumping * velocityPlayer, speedY);
                 playerAnimator.SetFloat("MoveSpeed", Mathf.Abs(x));
                 playerAnimator.SetBool("isGrounded", isGrounded);
@@ -264,7 +300,7 @@ public class PlayerController : MonoBehaviour
     {
        for (int i = 0; i < _UIManager.playerLifesIcons.Length; i++)
         {
-            if (i < playerLife)
+            if (i < GlobalStats.playerLife)
             {
                 _UIManager.playerLifesIcons[i].sprite = _UIManager.fullLifePlayer;
             }

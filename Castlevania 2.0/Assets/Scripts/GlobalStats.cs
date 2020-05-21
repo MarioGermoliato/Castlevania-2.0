@@ -10,7 +10,7 @@ public static class GlobalStats
     public static int score;
     public static int hearts = 5;
     public static int faseTime = 300;
-
+    public static int playerLife = 16;
 
 
 }
