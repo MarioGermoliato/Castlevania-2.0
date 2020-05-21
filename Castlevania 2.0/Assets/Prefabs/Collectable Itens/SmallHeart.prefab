@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 5574233204766221011}
   - component: {fileID: 959705943378388947}
   - component: {fileID: 6476692809801681675}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SmallHeart
   m_TagString: SmallHeart
   m_Icon: {fileID: 0}

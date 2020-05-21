@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 184708958537177748}
   - component: {fileID: 184708958537177768}
   - component: {fileID: 6097349160188063436}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WhipUpgrade
   m_TagString: PowerUp
   m_Icon: {fileID: 0}

@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     private SoundManager _SoundManager;
     private UIManager _UIManager;
 
+    private SpriteRenderer playerSR;
     public Rigidbody2D playerRB;
     
     public Animator playerAnimator;
@@ -52,8 +53,17 @@ public class PlayerController : MonoBehaviour
 
     public bool dontWalkPlease;
 
-    //public bool damageUp;
-    //public int animatorDamageControl;
+    public bool damageUp;
+    public bool isLookingLeft;
+
+    [Header("Damage")]
+    [SerializeField]
+    private Color damageColor;
+    [SerializeField]
+    private Color noHitColor;
+
+    [Header("Ladder")]
+    public float inputVertical;
 
 
 
@@ -66,6 +76,7 @@ public class PlayerController : MonoBehaviour
         _CameraController.playerTransform = this.transform;
 
         playerRB = GetComponent<Rigidbody2D>();
+        playerSR = GetComponent<SpriteRenderer>();
         playerAnimator = GetComponent<Animator>();
         playerHitBox = GetComponent<BoxCollider2D>();
 
@@ -92,16 +103,11 @@ public class PlayerController : MonoBehaviour
     {               
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.02f, floorLayer);
 
-        /*if (isGrounded == true)
+        if (isGrounded == true)
         {
-            animatorDamageControl = 0;
-            playerAnimator.SetFloat("AnimatorDamageControl", animatorDamageControl);
+            damageUp = false;
         }
-        else
-        {
-            animatorDamageControl = 1;
-            playerAnimator.SetFloat("AnimatorDamageControl", animatorDamageControl);
-        }*/
+       
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -109,9 +115,9 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Zombie"))
         {
             TakeDamage(2);
-            //GetHurt();
-            UpNumberOfHearts();
-            Destroy(collision.gameObject);
+            GetHurt();
+            StartCoroutine("DamageControl");
+            UpNumberOfHearts();            
         }
     }
    
@@ -121,26 +127,32 @@ public class PlayerController : MonoBehaviour
         GlobalStats.playerLife -= Damage;
     }
 
-    /*void GetHurt()
+    void GetHurt()
     {
         damageUp = true;
-        playerAnimator.SetBool("getHurt", damageUp);
-        playerRB.AddForce(new Vector2(-3,8), ForceMode2D.Impulse);
-        Debug.Log("Penis");
+        if (isLookingLeft == false)
+        {
+            playerRB.AddForce(new Vector2(-2f, 8), ForceMode2D.Impulse);
+        }
+        else
+        {
+            playerRB.AddForce(new Vector2(2, 8), ForceMode2D.Impulse);
+        }
+
+     
     }
 
     void EndHurt()
     {
-        damageUp = false;
-        Debug.Log("caralhinho");
-    }*/
+        damageUp = false;     
+    }
 
     void MoveCharacter()
     {       
             if (cantMove == false)
             {
 
-                float x = Input.GetAxisRaw("Horizontal");
+                float x = Input.GetAxisRaw("Horizontal");                
 
                 if (isThrowing == true && isGrounded == true)
                 {
@@ -166,16 +178,16 @@ public class PlayerController : MonoBehaviour
                 }
 
                 float speedY = playerRB.velocity.y;
-            /*if (damageUp == true)
-        {
-            playerRB.velocity = new Vector2(-2 * velocityPlayer, speedY);
-        }
-            else
-        {
-            playerRB.velocity = new Vector2(xJumping * velocityPlayer, speedY);
-        }*/
-
+            if (Input.GetAxisRaw("Horizontal") != 0 && damageUp == false)
+            {
                 playerRB.velocity = new Vector2(xJumping * velocityPlayer, speedY);
+            }
+                  
+            if (damageUp == true)
+            {
+            playerRB.velocity = new Vector2(playerRB.velocity.x, speedY);
+            }       
+                            
                 playerAnimator.SetFloat("MoveSpeed", Mathf.Abs(x));
                 playerAnimator.SetBool("isGrounded", isGrounded);
 
@@ -185,10 +197,16 @@ public class PlayerController : MonoBehaviour
                     playerRB.AddForce(Vector2.up * jumpSpeed, ForceMode2D.Impulse);
                 }
 
-                if (x > 0.05f)
-                    transform.rotation = Quaternion.Euler(0, 180, 0);
-                else if (x < -0.05f)
-                    transform.rotation = Quaternion.Euler(0, 0, 0);
+            if (x > 0.05f)
+            {
+                transform.rotation = Quaternion.Euler(0, 180, 0);
+                isLookingLeft = false;
+            }
+            else if (x < -0.05f)
+            {
+                transform.rotation = Quaternion.Euler(0, 0, 0);
+                isLookingLeft = true;
+            }
             }
                     
     }
@@ -288,10 +306,10 @@ public class PlayerController : MonoBehaviour
     {
             GlobalStats.powerUps += 1;
             playerAnimator.SetInteger("powerUp", GlobalStats.powerUps);
-           // Debug.Log("Coletou1");
+            Debug.Log("Coletou1");
             playerAnimator.SetTrigger("powerUpCollect");
             _SoundManager.audioSource.PlayOneShot(_SoundManager.collectUpgrade);
-           // Debug.Log("Coletou2");
+            Debug.Log("Coletou2");
             stop = true;
             Debug.Log(GlobalStats.powerUps);        
     }
@@ -339,5 +357,22 @@ public class PlayerController : MonoBehaviour
         GlobalStats.faseTime -= 1;
         _UIManager.timeTxt.text = "TIME 0" + GlobalStats.faseTime;
         StartCoroutine("TimeCounter");
+    }
+
+    IEnumerator DamageControl()
+    {                
+        this.gameObject.layer = LayerMask.NameToLayer("Invencivel");
+        playerSR.color = damageColor;
+        yield return new WaitForSeconds(0.3f);
+        playerSR.color = noHitColor;
+        for (int i = 0; i < 5; i++)
+        {
+            playerSR.enabled = false;
+            yield return new WaitForSeconds(0.2f);
+            playerSR.enabled = true;
+            yield return new WaitForSeconds(0.2f);
+        }
+        this.gameObject.layer = LayerMask.NameToLayer("Player");
+        playerSR.color = Color.white;
     }
 }
