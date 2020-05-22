@@ -9,6 +9,8 @@ public class CameraController : MonoBehaviour
 
     public Transform limitCamRight;
     public Transform limitCamLeft;
+    public Transform limitCamRight2;
+    public Transform limitCamLeft2;
     public float speedCam;
     
     // Start is called before the first frame update

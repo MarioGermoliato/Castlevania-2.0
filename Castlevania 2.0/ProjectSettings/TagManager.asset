@@ -17,6 +17,8 @@ TagManager:
   - Castle
   - Zombie
   - Weapon
+  - Transition1
+  - Stop2
   layers:
   - Default
   - TransparentFX
@@ -31,7 +33,7 @@ TagManager:
   - Floor
   - Player
   - Invencivel
-  - 
+  - Enemy
   - 
   - 
   - 

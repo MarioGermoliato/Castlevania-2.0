@@ -63,7 +63,9 @@ public class PlayerController : MonoBehaviour
     private Color noHitColor;
 
     [Header("Ladder")]
-    public float inputVertical;
+    public bool canMove = true;
+    public bool upStairs;
+    public bool downStairs;
 
 
 
@@ -90,7 +92,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {       
 
-        if (dontWalkPlease == false)
+        if (dontWalkPlease == false && canMove)
         {
             MoveCharacter();
         }
@@ -107,8 +109,12 @@ public class PlayerController : MonoBehaviour
         {
             damageUp = false;
         }
-       
+
+        if (onClimbable || isClimbing) //Check if the Player is on a Climbable or Climbing one
+            UseClimbable();
+
     }
+    
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -119,8 +125,89 @@ public class PlayerController : MonoBehaviour
             StartCoroutine("DamageControl");
             UpNumberOfHearts();            
         }
+        else if (collision.gameObject.CompareTag("Transition1"))
+        {
+            StopAllCoroutines();
+        }
+
     }
-   
+    // STAIRSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+    bool onClimbable = false;
+    bool isClimbing = false;
+    float climbPercentage;
+    float ClimbingSpeed = 0.5f;
+    Vector2 vectorStart, vectorEnd; //Starting and Ending Point of the Climbable
+    void UseClimbable()
+    {
+        float inputVer = Input.GetAxisRaw("Vertical");
+
+        if (inputVer != 0)
+        {
+            //Climb base on the percentage so we could back and forward based on the inputVer
+            climbPercentage += Time.deltaTime * ClimbingSpeed * inputVer;
+            this.gameObject.transform.position = Vector2.Lerp(vectorStart, vectorEnd, climbPercentage);
+        }
+
+        climbPercentage = Mathf.Clamp01(climbPercentage);
+
+        //if the Player reaches any end he can move again
+        if (climbPercentage == 0 || climbPercentage == 1)
+        {
+            isClimbing = false;
+            canMove = true;
+            playerRB.gravityScale = 2.5f;
+            playerAnimator.SetBool("upStairs", isClimbing);
+            playerAnimator.SetBool("downStairs", isClimbing);
+        }
+        else
+        {
+            isClimbing = true;
+            canMove = false;
+            playerRB.gravityScale = 0;
+            playerRB.velocity = new Vector2(0, 0);
+            playerAnimator.SetBool("upStairs", upStairs);
+            playerAnimator.SetBool("downStairs", downStairs);
+        }
+    }
+
+    //Called to set the Climbable Data
+    public void SetClimbableData(bool onClimbable, Vector2 StartY, Vector2 EndY, bool isDown, float ClimbingSpeed)
+    {
+        this.onClimbable = onClimbable;
+
+        this.vectorStart = StartY;
+        this.vectorEnd = EndY;
+
+        //to Check at what end the Player is
+        if (isDown)
+        {
+            climbPercentage = 0;
+            upStairs = true;
+            downStairs = false;
+        }
+        else
+        {
+            climbPercentage = 1;
+            upStairs = false;
+            downStairs = true;
+            
+        }
+
+        this.ClimbingSpeed = ClimbingSpeed;
+    }
+    public void OffClimbable()
+    {
+        onClimbable = false;
+    }
+
+
+
+
+
+    //STAIRSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+
 
     void TakeDamage(int Damage)
     {

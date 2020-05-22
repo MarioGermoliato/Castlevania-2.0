@@ -10,11 +10,13 @@ public class IntroWalk : MonoBehaviour
     public SpriteRenderer characterLooking;
     public SpriteRenderer characterWalking;
     public float timeToChange;
+    public GameObject playableCharacter;
+    private CastleTransition _CastleTransition;
 
     // Start is called before the first frame update
     void Start()
     {
-    
+        _CastleTransition = FindObjectOfType(typeof(CastleTransition)) as CastleTransition;
     }
 
     // Update is called once per frame
@@ -42,6 +44,12 @@ public class IntroWalk : MonoBehaviour
         {
             SceneControll.ChangeScene("Castle");           
         }
+        if(collision.CompareTag("Stop2"))
+        {            
+            _CastleTransition.CharPlayer.SetActive(true);
+            this.gameObject.SetActive(false);
+
+        }
     }
 
     IEnumerator TimeToWaitStart()
@@ -49,5 +57,5 @@ public class IntroWalk : MonoBehaviour
         yield return new WaitForSeconds(timeToChange);
         SceneControll.ChangeScene("Entrance");
     }
-  
+        
 }
