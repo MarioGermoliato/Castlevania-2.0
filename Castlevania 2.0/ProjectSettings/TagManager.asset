@@ -19,6 +19,8 @@ TagManager:
   - Weapon
   - Transition1
   - Stop2
+  - End
+  - Water
   layers:
   - Default
   - TransparentFX

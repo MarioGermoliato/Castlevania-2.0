@@ -11,6 +11,6 @@ public static class GlobalStats
     public static int hearts = 5;
     public static int faseTime = 300;
     public static int playerLife = 16;
-
+    public static bool stopCorroutine;
 
 }

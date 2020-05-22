@@ -14,7 +14,14 @@ public class SummonEnemy : MonoBehaviour
     public Enemy[] enemyPrefab;
 
 
-
+    private void Update()
+    {
+        if (GlobalStats.stopCorroutine)
+        {
+            StopCoroutine("RespawlDelay");
+            GlobalStats.stopCorroutine = false;
+        }
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))

@@ -32,6 +32,8 @@ public class CastleTransition : MonoBehaviour
         Destroy(collision.gameObject);
         CharWalk.SetActive(true);
         _CameraController.playerTransform = Door.transform;
+
+        StartCoroutine("CamTran");
         StartCoroutine("DoorClose");
 
         
@@ -40,12 +42,16 @@ public class CastleTransition : MonoBehaviour
 
     IEnumerator DoorClose()
     {
-        yield return new WaitForSeconds(7);
+        yield return new WaitForSeconds(3.5f);
 
         Door.SetActive(false);
-        CharWalk.SetActive(false);
-        CharPlayer.SetActive(true);
-        _CameraController.limitCamLeft = _CameraController.limitCamLeft2;
+        CharWalk.SetActive(false);               
+        CharPlayer.SetActive(true);        
         
+    }
+    IEnumerator CamTran()
+    {
+        yield return new WaitForSeconds(2.5f);
+        _CameraController.limitCamLeft = _CameraController.limitCamLeft2;
     }
 }

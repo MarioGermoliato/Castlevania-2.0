@@ -13,12 +13,16 @@ public class ZombieController : Enemy
     [SerializeField]
     private Rigidbody2D zombieRB;
 
+   
+
     // Start is called before the first frame update
     void Start()
     {
         zombieRB = GetComponent<Rigidbody2D>();
         health = 1;
         _UIManager = FindObjectOfType(typeof(UIManager)) as UIManager;
+        enemyAnimator = GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
@@ -40,7 +44,9 @@ public class ZombieController : Enemy
         {
             GlobalStats.score += points;
             _UIManager.scoreTxt.text = "SCORE-00" + GlobalStats.score.ToString();
-            Destroy(this.gameObject);
+            velMov = 0;
+            enemyAnimator.SetTrigger("enemyDeath");
+            
         }
 
     }
@@ -50,13 +56,18 @@ public class ZombieController : Enemy
         if(collision.CompareTag("Whip")) 
         {
             GetDamage(2);
+            
         }
-        else if (collision.CompareTag("Weapon"))
+        else if (collision.CompareTag("Dagger"))
         {
             GetDamage(2);
             Destroy(collision.gameObject);
         }
+        else if(collision.CompareTag("End"))
+        {
+            Destroy(this.gameObject);
+        }
     }    
-
+   
 
 }

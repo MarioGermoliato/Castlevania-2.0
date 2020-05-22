@@ -19,6 +19,12 @@ public class DestructibleItens : MonoBehaviour
     private GameObject bigHeart;
     [SerializeField]
     private GameObject dagger;
+    [SerializeField]
+    private GameObject redBag;
+    [SerializeField]
+    private GameObject purpleBag;
+    [SerializeField]
+    private GameObject WhiteBag;
     // Start is called before the first frame update
     void Start()
     {
@@ -59,6 +65,18 @@ public class DestructibleItens : MonoBehaviour
             {
                 Instantiate(dagger, new Vector3(this.transform.position.x, this.transform.position.y + 1f, this.transform.position.z), dagger.transform.rotation);
             }
+            else if (dropItem == ItensDrop.RedBag)
+            {
+                Instantiate(redBag, new Vector3(this.transform.position.x, this.transform.position.y + 1f, this.transform.position.z), redBag.transform.rotation);
+            }
+            else if (dropItem == ItensDrop.PurpleBag)
+            {
+                Instantiate(purpleBag, new Vector3(this.transform.position.x, this.transform.position.y + 1f, this.transform.position.z), purpleBag.transform.rotation);
+            }
+            else if (dropItem == ItensDrop.WhiteBag)
+            {
+                Instantiate(WhiteBag, new Vector3(this.transform.position.x, this.transform.position.y + 1f, this.transform.position.z), WhiteBag.transform.rotation);
+            }
         }
         // caso seja vela
         else if (originItem == ItemOrigin.Candle)
@@ -86,6 +104,18 @@ public class DestructibleItens : MonoBehaviour
             {
                 Instantiate(dagger, new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z), dagger.transform.rotation);
             }
+            else if (dropItem == ItensDrop.RedBag)
+            {
+                Instantiate(redBag, new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z), redBag.transform.rotation);
+            }
+            else if (dropItem == ItensDrop.PurpleBag)
+            {
+                Instantiate(purpleBag, new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z), purpleBag.transform.rotation);
+            }
+            else if (dropItem == ItensDrop.WhiteBag)
+            {
+                Instantiate(WhiteBag, new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z), WhiteBag.transform.rotation);
+            }
         }
 
 
@@ -100,6 +130,12 @@ public class DestructibleItens : MonoBehaviour
         {
             _SoundManager.audioSource.PlayOneShot(_SoundManager.destroyTorch);
             DropItem();            
+        }
+        if (collision.CompareTag("Dagger"))
+        {
+            Destroy(collision.gameObject);
+            _SoundManager.audioSource.PlayOneShot(_SoundManager.destroyTorch);
+            DropItem();
         }
     }
 }

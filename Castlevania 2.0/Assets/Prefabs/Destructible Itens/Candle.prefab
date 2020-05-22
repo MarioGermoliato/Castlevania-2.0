@@ -143,9 +143,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dropItem: 0
+  originItem: 0
   powerUp: {fileID: 184708958537177751, guid: 1c0d0728e99d08648ad6954e8bb542db, type: 3}
   smallHeart: {fileID: 5574233204766221036, guid: 6c7e98732f67d8e4caea4b2db8ac7f7a,
     type: 3}
   bigHeart: {fileID: 4566387584170743971, guid: 2a3278bda8fab4241b94d8041731f898,
     type: 3}
   dagger: {fileID: 2703753430286863172, guid: ad0cafec1039e4e4fbd9473752d447b1, type: 3}
+  redBag: {fileID: 3620031461401649318, guid: 6bd76a19e61fbaf43bd8a960351a3064, type: 3}
+  purpleBag: {fileID: 4125970970467310393, guid: 03c27c852b4f1014282c0bc57f03d4d4,
+    type: 3}
+  WhiteBag: {fileID: 8997784770366085232, guid: fdfd63cbc79650d498464fde6e9084a6,
+    type: 3}

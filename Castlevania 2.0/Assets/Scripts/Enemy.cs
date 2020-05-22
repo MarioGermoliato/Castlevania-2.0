@@ -7,6 +7,8 @@ public class Enemy : MonoBehaviour
     public int health;
     
     public int direction;
+
+    public Animator enemyAnimator;
     
 
     // Start is called before the first frame update
@@ -29,8 +31,8 @@ public class Enemy : MonoBehaviour
     public virtual void Defeat(int points)
     {
         if (health <= 0)
-        {            
-            Destroy(this.gameObject);
+        {
+            enemyAnimator.SetTrigger("enemyDeath");
         }
     }
     public void ToScore(int nPoints)
@@ -42,5 +44,10 @@ public class Enemy : MonoBehaviour
     public void DirectionSet(int thisDirection)
     {
         direction = thisDirection;
+    }
+
+    public void DeadEnemy()
+    {
+        Destroy(this.gameObject);
     }
 }

@@ -125,9 +125,10 @@ public class PlayerController : MonoBehaviour
             StartCoroutine("DamageControl");
             UpNumberOfHearts();            
         }
-        else if (collision.gameObject.CompareTag("Transition1"))
+         if (collision.gameObject.CompareTag("Transition1"))
         {
             StopAllCoroutines();
+            GlobalStats.stopCorroutine = true;
         }
 
     }
