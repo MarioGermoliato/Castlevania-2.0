@@ -5,6 +5,7 @@ using UnityEngine;
 public class ZombieController : Enemy
 {
     private UIManager _UIManager;
+    private SoundManager _SoundManager;
 
     [SerializeField]
     private float velMov;
@@ -21,6 +22,7 @@ public class ZombieController : Enemy
         zombieRB = GetComponent<Rigidbody2D>();
         health = 1;
         _UIManager = FindObjectOfType(typeof(UIManager)) as UIManager;
+        _SoundManager = FindObjectOfType(typeof(SoundManager)) as SoundManager;
         enemyAnimator = GetComponent<Animator>();
 
     }
@@ -56,11 +58,13 @@ public class ZombieController : Enemy
         if(collision.CompareTag("Whip")) 
         {
             GetDamage(2);
-            
+            _SoundManager.audioSource.PlayOneShot(_SoundManager.destroyTorch);
+
         }
         else if (collision.CompareTag("Dagger"))
         {
             GetDamage(2);
+            _SoundManager.audioSource.PlayOneShot(_SoundManager.destroyTorch);
             Destroy(collision.gameObject);
         }
         else if(collision.CompareTag("End"))

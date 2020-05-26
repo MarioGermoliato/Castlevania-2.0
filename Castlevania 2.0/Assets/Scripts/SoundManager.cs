@@ -11,6 +11,8 @@ public class SoundManager : MonoBehaviour
     public AudioClip heartCollect;
     public AudioClip daggerCollect;
     public AudioClip throwDaager;
+    public AudioClip timeOver;
+    public AudioClip coin;
 
     // Start is called before the first frame update
     void Start()

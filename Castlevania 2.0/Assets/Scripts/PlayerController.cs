@@ -91,6 +91,27 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {       
+        if (GlobalStats.faseTime <= 0)
+            {            
+            playerAnimator.SetTrigger("Die");
+            StopAllCoroutines();
+            canMove = false;
+            cantMove = true;
+            }
+
+        if (GlobalStats.playerLife == 0)
+        {
+            playerAnimator.SetTrigger("Die");
+            StopAllCoroutines();
+            canMove = false;
+            cantMove = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            GlobalStats.faseTime = 10;
+        }
+
 
         if (dontWalkPlease == false && canMove)
         {

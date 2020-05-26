@@ -1005,6 +1005,8 @@ MonoBehaviour:
   heartCollect: {fileID: 8300000, guid: 95f2d8808a744f342890d5ebf6d75417, type: 3}
   daggerCollect: {fileID: 8300000, guid: 485b07c0a2e5f514daceae7a028cd6ff, type: 3}
   throwDaager: {fileID: 8300000, guid: 22600eb0e55d4b64b86201a7a98cabf2, type: 3}
+  timeOver: {fileID: 8300000, guid: fd952d4ba4f85744ebac8bf1cc682d63, type: 3}
+  coin: {fileID: 8300000, guid: 3e85f8c6a923337498288dc927abb229, type: 3}
 --- !u!4 &389390607
 Transform:
   m_ObjectHideFlags: 0

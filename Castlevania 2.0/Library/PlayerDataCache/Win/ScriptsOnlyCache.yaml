@@ -841,7 +841,7 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
-      Hash: ab75fd9f08881a818f05bcc20f68142d
+      Hash: dd812309938c059d96a6d3c1a46db6ad
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SoundManager

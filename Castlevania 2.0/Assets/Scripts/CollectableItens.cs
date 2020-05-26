@@ -53,16 +53,19 @@ public class CollectableItens : MonoBehaviour
             else if (CurrentItem == ItensDrop.RedBag)
             {
                 ToScore(100);
+                _SoundManager.audioSource.PlayOneShot(_SoundManager.coin);
                 Destroy(this.gameObject);
             }
             else if (CurrentItem == ItensDrop.PurpleBag)
             {
                 ToScore(300);
+                _SoundManager.audioSource.PlayOneShot(_SoundManager.coin);
                 Destroy(this.gameObject);
             }
             else if (CurrentItem == ItensDrop.WhiteBag)
             {
                 ToScore(700);
+                _SoundManager.audioSource.PlayOneShot(_SoundManager.coin);
                 Destroy(this.gameObject);
             }
             else if (CurrentItem == ItensDrop.Upgrade)
